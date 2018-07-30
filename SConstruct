@@ -309,7 +309,7 @@ fstar_default_args_nosmtencoding = ('--max_fuel 1 --max_ifuel 1' \
   # Don't remove unless you're sure you've used the axiom profiler to make sure you have no matching loops
   + ' --z3cliopt smt.arith.nl=false --z3cliopt smt.QI.EAGER_THRESHOLD=100 --z3cliopt smt.CASE_SPLIT=3' \
   + ' --hint_info' \
-  + ('' if is_single_vaf else ' --use_hints') \
+  + ('' if is_single_vaf else ' --use_hints --use_hint_hashes') \
   + (' --record_hints' if gen_hints else ' --cache_checked_modules') \
   + (' --use_extracted_interfaces true')
   )
