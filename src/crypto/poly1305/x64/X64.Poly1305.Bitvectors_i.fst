@@ -107,7 +107,7 @@ let lemma_bv128_64_64_and x x0 x1 y y0 y1 z z0 z1 =
 			   rewrite_eqs_from_context ();
 			   norm[delta])
 
-#reset-options "--smtencoding.elim_box true --z3refresh --z3rlimit 12 --max_ifuel 1 --max_fuel 1"
+#reset-options "--smtencoding.elim_box true --z3refresh --z3rlimit 30 --max_ifuel 1 --max_fuel 1"
 let int2bv_uext_64_128 (x1 : nat) :
   Lemma  (requires (FStar.UInt.size x1 64))
 	 (ensures (bv_uext #64 #64 (int2bv #64 x1) == int2bv #128 x1)) =
@@ -118,7 +118,7 @@ let int2bv_uext_64_128 (x1 : nat) :
    assert (FStar.UInt.size x1 128);
    assert_by_tactic (bv_uext #64 #64 (int2bv #64 x1) == int2bv #128 x1)
 		(fun () -> dump ".."; 
-		norm[delta_only ["X64.Poly1305.Bitvectors_i.uint_ext"; "FStar.UInt.to_uint_t"]];
+		norm [delta_only ["X64.Poly1305.Bitvectors_i.uint_ext"; "FStar.UInt.to_uint_t"]]; // GM: This seems useless?
 		 // grewrite (quote (x1 % pow2 128)) (quote x1);
 		dump "After norm"; smt ())
 
