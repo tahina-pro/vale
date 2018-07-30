@@ -1,0 +1,291 @@
+[
+  "\b8>µ€h8<\u000e\u000fHNbsr‚",
+  [
+    [
+      "Recursive.ins",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "8bbe9b22cdfbcb3a388405a785a1f15a"
+    ],
+    [
+      "Recursive.ocmp",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Recursive.reg__uu___haseq" ],
+      0,
+      "623fd268bee4abd3e929b94d6f7822a6"
+    ],
+    [
+      "Recursive.va_code",
+      1,
+      1,
+      0,
+      [
+        "@query", "assumption_Prims.list__uu___haseq",
+        "assumption_Recursive.ins__uu___haseq",
+        "assumption_Recursive.ocmp__uu___haseq",
+        "kinding_Recursive.va_code@tok"
+      ],
+      0,
+      "58cee99b206dbb79443f29926e2f5431"
+    ],
+    [
+      "Recursive.__proj__Ins__item__ins",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Recursive.Ins",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Recursive_Tm_refine_0cfe06df319d791e542a9ae33118efcc"
+      ],
+      0,
+      "6d9656f85b1e4110718b530409242964"
+    ],
+    [
+      "Recursive.__proj__Block__item__block",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Recursive.Block",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Recursive_Tm_refine_68c20371f09cbdd331122eb1c290becb"
+      ],
+      0,
+      "bc7d111d547b43ab08db5d8a0b65bc1e"
+    ],
+    [
+      "Recursive.__proj__IfElse__item__ifCond",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Recursive.IfElse",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Recursive_Tm_refine_1bbb4d1874761d6494405c8695034c96"
+      ],
+      0,
+      "59e473ab0c954535196efbbf9dfe1959"
+    ],
+    [
+      "Recursive.__proj__IfElse__item__ifTrue",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Recursive.IfElse",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Recursive_Tm_refine_1bbb4d1874761d6494405c8695034c96"
+      ],
+      0,
+      "b1780717d5fe18c45388e2d189f77d88"
+    ],
+    [
+      "Recursive.__proj__IfElse__item__ifFalse",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Recursive.IfElse",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Recursive_Tm_refine_1bbb4d1874761d6494405c8695034c96"
+      ],
+      0,
+      "2a94b57e7dc80b2a39273b54310d7ed3"
+    ],
+    [
+      "Recursive.va_state",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Recursive.reg__uu___haseq" ],
+      0,
+      "246d7137978d7be522b0c40adc2915ab"
+    ],
+    [
+      "Recursive.va_get_reg",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Recursive.reg__uu___haseq" ],
+      0,
+      "90fedcb945dedf7331c97b6f97952104"
+    ],
+    [
+      "Recursive.va_update_reg",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Recursive.reg__uu___haseq" ],
+      0,
+      "6907b9a063f9003319deb4542d001efc"
+    ],
+    [
+      "Recursive.va_update_reg",
+      2,
+      1,
+      0,
+      [ "@query", "assumption_Recursive.reg__uu___haseq" ],
+      0,
+      "84b29f007de5744b9632212543f01934"
+    ],
+    [
+      "Recursive.va_state_eq",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "3ffa4f1bf8bb419abc7911b04afa55ce"
+    ],
+    [
+      "Recursive.va_state_eq",
+      2,
+      1,
+      0,
+      [ "@query", "assumption_Recursive.reg__uu___haseq" ],
+      0,
+      "cce5b50967e05166348e4ab1fec9f5b8"
+    ],
+    [
+      "Recursive.va_state_eq",
+      3,
+      1,
+      0,
+      [ "@query", "assumption_Recursive.reg__uu___haseq" ],
+      0,
+      "22679032df2db61e4273a216e5cf73e3"
+    ],
+    [
+      "Recursive.va_state_eq",
+      4,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "84ad4217d0dddee0267b2b7fd974080a"
+    ],
+    [
+      "Recursive.va_state_eq",
+      5,
+      1,
+      0,
+      [ "@query", "assumption_Recursive.reg__uu___haseq" ],
+      0,
+      "72c14d120789040923da1e3d149e1913"
+    ],
+    [
+      "Recursive.va_state_eq",
+      6,
+      1,
+      0,
+      [ "@query", "assumption_Recursive.reg__uu___haseq" ],
+      0,
+      "e1076735ef40137ad681af36bcf6777e"
+    ],
+    [
+      "Recursive.va_require_total",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Recursive.va_code__uu___haseq" ],
+      0,
+      "042d37e6635323b9b9cba4182fe98796"
+    ],
+    [
+      "Recursive.eval_ocmp",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Recursive.reg__uu___haseq" ],
+      0,
+      "94049dd0bec8f1b946eb4ac2f49b9d95"
+    ],
+    [
+      "Recursive.eval_ocmp",
+      2,
+      1,
+      0,
+      [ "@query", "assumption_Recursive.reg__uu___haseq" ],
+      0,
+      "4379ba40293c3b7400af4db0f1dfb87b"
+    ],
+    [
+      "Recursive.va_transparent_code_KeyExpansionRoundUnrolledRecursive",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "binder_x_6d0180d4fcd10237cf0d87dd345d77cc_0", "int_typing",
+        "primitive_Prims.op_LessThan", "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_BoxInt_proj_0", "well-founded-ordering-on-nat"
+      ],
+      0,
+      "788284b218ff51fed63895c014b47383"
+    ],
+    [
+      "Recursive.va_transparent_code_KeyExpansionRoundUnrolledRecursive",
+      2,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equality_tok_Prims.LexTop@tok",
+        "int_typing", "projection_inverse_BoxInt_proj_0",
+        "well-founded-ordering-on-nat"
+      ],
+      0,
+      "8ba786224b63f82bada96242d872be3e"
+    ],
+    [
+      "Recursive.va_lemma_KeyExpansionRoundUnrolledRecursive",
+      1,
+      1,
+      0,
+      [
+        "@MaxFuel_assumption", "@MaxIFuel_assumption",
+        "@fuel_correspondence_Recursive.va_code_KeyExpansionRoundUnrolledRecursive.fuel_instrumented",
+        "@fuel_correspondence_Recursive.va_transparent_code_KeyExpansionRoundUnrolledRecursive.fuel_instrumented",
+        "@fuel_irrelevance_Recursive.va_code_KeyExpansionRoundUnrolledRecursive.fuel_instrumented",
+        "@fuel_irrelevance_Recursive.va_transparent_code_KeyExpansionRoundUnrolledRecursive.fuel_instrumented",
+        "@query", "Recursive_pretyping_c72863a56e5aa638ae952e6d64a392ca",
+        "b2t_def", "binder_x_6d0180d4fcd10237cf0d87dd345d77cc_2",
+        "binder_x_6d0180d4fcd10237cf0d87dd345d77cc_3",
+        "binder_x_c72863a56e5aa638ae952e6d64a392ca_0",
+        "constructor_distinct_Prims.Cons",
+        "constructor_distinct_Recursive.Block", "disc_equation_Prims.Cons",
+        "disc_equation_Recursive.Block", "equation_Recursive.va_Block",
+        "equation_Recursive.va_CCons", "equation_Recursive.va_CNil",
+        "equation_Recursive.va_ensure_total", "equation_Recursive.va_fuel",
+        "equation_Recursive.va_get_block", "equation_Recursive.va_get_ok",
+        "equation_Recursive.va_require_total", "equation_Recursive.va_state",
+        "equation_Recursive.va_state_eq", "equation_Recursive.va_update_ok",
+        "equation_with_fuel_Recursive.va_code_KeyExpansionRoundUnrolledRecursive.fuel_instrumented",
+        "equation_with_fuel_Recursive.va_transparent_code_KeyExpansionRoundUnrolledRecursive.fuel_instrumented",
+        "int_inversion", "int_typing", "primitive_Prims.op_Equality",
+        "primitive_Prims.op_LessThan", "proj_equation_Prims.Cons_hd",
+        "proj_equation_Recursive.Block_block",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_BoxInt_proj_0",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple2__1",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple2__2",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple3__1",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple3__2",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple3__3",
+        "projection_inverse_Prims.Cons_a",
+        "projection_inverse_Prims.Cons_hd",
+        "projection_inverse_Prims.Cons_tl",
+        "projection_inverse_Recursive.Block_block", "true_interp",
+        "typing_Recursive.va_code_KeyExpansionRoundUnrolledRecursive",
+        "well-founded-ordering-on-nat"
+      ],
+      0,
+      "7c1f637cae9266d6cbc817ec530d8368"
+    ]
+  ]
+]

@@ -1,0 +1,34 @@
+[
+  "v³}\u0004¶e³|ôV×kˆ\u001cºÍ",
+  [
+    [
+      "X64.Vale.Xmms_i.lemma_equal_intro",
+      1,
+      1,
+      0,
+      [
+        "@query", "equation_FStar.FunctionalExtensionality.feq",
+        "equation_Types_s.quad32", "equation_X64.Machine_s.xmm",
+        "equation_X64.Vale.Xmms_i.equal"
+      ],
+      0,
+      "8147338cf256c5d6d58c6e6ca28b40f8"
+    ],
+    [
+      "X64.Vale.Xmms_i.lemma_equal_elim",
+      1,
+      1,
+      0,
+      [
+        "@query", "assumption_FStar.FunctionalExtensionality.Extensionality",
+        "equation_FStar.FunctionalExtensionality.efun",
+        "equation_Types_s.quad32", "equation_X64.Machine_s.xmm",
+        "equation_X64.Vale.Xmms_i.equal", "equation_X64.Vale.Xmms_i.t",
+        "function_token_typing_Types_s.quad32",
+        "function_token_typing_X64.Machine_s.xmm"
+      ],
+      0,
+      "0ca5e87c3a1cfcbf06a56f79ef0f95db"
+    ]
+  ]
+]

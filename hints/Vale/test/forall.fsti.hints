@@ -1,24 +1,6 @@
 [
-  "\fÁI\u0012¦S¡õ{OÄëì•ƒª",
+  "•\bé\u001f\"÷ƒ\u0001ÇpXó\u001ao¬K",
   [
-    [
-      "Forall.uu___is_EAX",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "5e0649f1dff03ff35347f93a611be574"
-    ],
-    [
-      "Forall.uu___is_EBX",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "f4ac0f5bc7645c7de51b2860265f054e"
-    ],
     [
       "Forall.ins",
       1,
@@ -26,43 +8,16 @@
       0,
       [ "@query", "assumption_Prims.HasEq_int" ],
       0,
-      "6c1e73400fc53926f16d06ca305d8b40"
-    ],
-    [
-      "Forall.__proj__IPlaceholder__item___0",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "e7d5d04eba3431b0ca5d7b384fb76c0f"
+      "059368a5e988ce258c15c7f5c56dfe68"
     ],
     [
       "Forall.ocmp",
       1,
       1,
       0,
-      [ "@query", "assumption_Forall.reg_haseq" ],
+      [ "@query", "assumption_Forall.reg__uu___haseq" ],
       0,
-      "d0421221dfaff23812bed23167585cde"
-    ],
-    [
-      "Forall.__proj__OLe__item__o1",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "78a514c3fe456e83eb707f94b5f7920d"
-    ],
-    [
-      "Forall.__proj__OLe__item__o2",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "cb004ac555a529dfe49e064887a8d2ec"
+      "3b43b4401942ba5e5e063adfd27f0331"
     ],
     [
       "Forall.va_code",
@@ -70,21 +25,12 @@
       1,
       0,
       [
-        "@query", "assumption_Forall.ins_haseq",
-        "assumption_Forall.ocmp_haseq", "assumption_Prims.list_haseq",
-        "kinding_Forall.va_code@tok"
+        "@query", "assumption_Forall.ins__uu___haseq",
+        "assumption_Forall.ocmp__uu___haseq",
+        "assumption_Prims.list__uu___haseq", "kinding_Forall.va_code@tok"
       ],
       0,
-      "35e68363fc0bb0dc3032ec4fe77128da"
-    ],
-    [
-      "Forall.uu___is_Ins",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "1a3708a67a98b3ccf3d83345e5292d6e"
+      "43e1aa43d7395ea94ceebee8732f0850"
     ],
     [
       "Forall.__proj__Ins__item__ins",
@@ -97,16 +43,7 @@
         "refinement_interpretation_Forall_Tm_refine_f659bc8d5058398b2a57df8ae5da7998"
       ],
       0,
-      "9572d54d2cf8b0f7a6eedabf3890231d"
-    ],
-    [
-      "Forall.uu___is_Block",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "cfcad2a3adac14135c229471bd40b148"
+      "07ceb4087c47a21f041d4d57b9e7187f"
     ],
     [
       "Forall.__proj__Block__item__block",
@@ -119,16 +56,7 @@
         "refinement_interpretation_Forall_Tm_refine_b255163505559367a828bb2bcd7ae929"
       ],
       0,
-      "111fce083578841821a1686cc47c29d7"
-    ],
-    [
-      "Forall.uu___is_IfElse",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "fad084ca772e410d490768dd88a106f8"
+      "80db2db158cb92255ab067aaea6392a6"
     ],
     [
       "Forall.__proj__IfElse__item__ifCond",
@@ -141,7 +69,7 @@
         "refinement_interpretation_Forall_Tm_refine_5f5df07e42ce5241eb924fac67d28286"
       ],
       0,
-      "e4db3141c97dd422e0f5d4a959a6a91e"
+      "65903cfdf624087916a2503cacedc9b7"
     ],
     [
       "Forall.__proj__IfElse__item__ifTrue",
@@ -154,7 +82,7 @@
         "refinement_interpretation_Forall_Tm_refine_5f5df07e42ce5241eb924fac67d28286"
       ],
       0,
-      "7d33191cb30789b8d96750776f6ba672"
+      "3b5f7a2d1d05bcece7b8acb35f7a1050"
     ],
     [
       "Forall.__proj__IfElse__item__ifFalse",
@@ -167,52 +95,52 @@
         "refinement_interpretation_Forall_Tm_refine_5f5df07e42ce5241eb924fac67d28286"
       ],
       0,
-      "2db8352c97f978bf9ca0be08fbac7bc5"
+      "f923071014d9f37b3356995abb971dba"
     ],
     [
       "Forall.va_state",
       1,
       1,
       0,
-      [ "@query", "assumption_Forall.reg_haseq" ],
+      [ "@query", "assumption_Forall.reg__uu___haseq" ],
       0,
-      "73028df068d098afc291de071d107f80"
+      "23a972360b2292e40d0c27599d8d88e1"
     ],
     [
       "Forall.va_get_reg",
       1,
       1,
       0,
-      [ "@query", "assumption_Forall.reg_haseq" ],
+      [ "@query", "assumption_Forall.reg__uu___haseq" ],
       0,
-      "8f9ce09d9fce47bb9711421f38305de6"
+      "3603909dd68d490b159d87e2fb48d34e"
     ],
     [
       "Forall.va_update_reg",
       1,
       1,
       0,
-      [ "@query", "assumption_Forall.reg_haseq" ],
+      [ "@query", "assumption_Forall.reg__uu___haseq" ],
       0,
-      "e6e5e8f022ff9e91618df18925cfd96d"
+      "76a69ef8b3bfac23b097c863de578083"
     ],
     [
       "Forall.va_update_reg",
       2,
       1,
       0,
-      [ "@query", "assumption_Forall.reg_haseq" ],
+      [ "@query", "assumption_Forall.reg__uu___haseq" ],
       0,
-      "7ff5a41721c4a51663ad6f8dc9b7bcb0"
+      "79ef51cc56d9cfbf28a02204daffb719"
     ],
     [
       "Forall.va_eval_register_int",
       1,
       1,
       0,
-      [ "@query", "assumption_Forall.reg_haseq" ],
+      [ "@query", "assumption_Forall.reg__uu___haseq" ],
       0,
-      "0156a19ca0896d0ea17db04002733b74"
+      "2fbc0cb9ce050283c0ec3d67ac1c5166"
     ],
     [
       "Forall.va_state_eq",
@@ -221,25 +149,25 @@
       0,
       [ "@query", "assumption_Prims.HasEq_int" ],
       0,
-      "a3ca975fc20d2a3d89d6a958409b3bc2"
+      "7809ef7b0995f4f906d4ff69b53dae3d"
     ],
     [
       "Forall.va_state_eq",
       2,
       1,
       0,
-      [ "@query", "assumption_Forall.reg_haseq" ],
+      [ "@query", "assumption_Forall.reg__uu___haseq" ],
       0,
-      "69eadef4c3770f9111dc5ca2c4cada80"
+      "0db33b4dbdf424cc8cf44a906b7b862b"
     ],
     [
       "Forall.va_state_eq",
       3,
       1,
       0,
-      [ "@query", "assumption_Forall.reg_haseq" ],
+      [ "@query", "assumption_Forall.reg__uu___haseq" ],
       0,
-      "d57ce62c2636fb6bd2cb8cdc344ba74e"
+      "e4fbe8c3140b7066a6bd6f4909ee6c27"
     ],
     [
       "Forall.va_state_eq",
@@ -248,115 +176,34 @@
       0,
       [ "@query", "assumption_Prims.HasEq_int" ],
       0,
-      "5650224c989240e9bb3bf90a4e084696"
+      "a3d82de9becd5e2ce3f903ca444105c6"
     ],
     [
       "Forall.va_state_eq",
       5,
       1,
       0,
-      [ "@query", "assumption_Forall.reg_haseq" ],
+      [ "@query", "assumption_Forall.reg__uu___haseq" ],
       0,
-      "c5b159dea1a2e6b5010d15703cf3fd34"
+      "b7d39e0580bda5cc26070dcbc1c56e98"
     ],
     [
       "Forall.va_state_eq",
       6,
       1,
       0,
-      [ "@query", "assumption_Forall.reg_haseq" ],
+      [ "@query", "assumption_Forall.reg__uu___haseq" ],
       0,
-      "446c26071a9662a11cd5c762245f1589"
+      "3c0eb2029b031fb6651232935b4cd3d8"
     ],
     [
       "Forall.va_require_total",
       1,
       1,
       0,
-      [ "@query" ],
+      [ "@query", "assumption_Forall.va_code__uu___haseq" ],
       0,
-      "b34f2e26724728db2f508e093e9c976e"
-    ],
-    [
-      "Forall.va_require_total",
-      2,
-      1,
-      0,
-      [ "@query", "assumption_Forall.va_code_haseq" ],
-      0,
-      "26fcfeef7e56ef94229aa3ca71136cc9"
-    ],
-    [
-      "Forall.va_lemma_Calls0",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "d32532821a900aae80cd70b4c68fc992"
-    ],
-    [
-      "Forall.va_lemma_Calls1",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "bc431000d28349f3f65c8dec68261b5b"
-    ],
-    [
-      "Forall.va_lemma_Calls2",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "275e0d3e42454a596ba9b0b5beb13dc0"
-    ],
-    [
-      "Forall.va_lemma_Calls3",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "b60c27d16e08b7621d9c77abcb2f4eb1"
-    ],
-    [
-      "Forall.va_lemma_Calls4",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "d8e2a975de0ad70f05f9829991b44036"
-    ],
-    [
-      "Forall.va_lemma_Calls5",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "1a161a6d0f07fa237c74eb9f4fcf4271"
-    ],
-    [
-      "Forall.va_lemma_Calls6",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "1df4fa1fb40151d5d40fa8c85754aba1"
-    ],
-    [
-      "Forall.va_lemma_Double",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "793e3bd3e9a3b815487e0ff860714085"
+      "ed474dfc06e7134aefb32a8efc70acb3"
     ]
   ]
 ]

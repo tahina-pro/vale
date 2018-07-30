@@ -1,0 +1,18 @@
+[
+  "¬Ãª-7h\\üíèÓcÅşµ",
+  [
+    [
+      "Meta.generic_injective_proof",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "primitive_Prims.op_Equality",
+        "primitive_Prims.op_Negation", "projection_inverse_BoxBool_proj_0",
+        "unit_inversion", "unit_typing"
+      ],
+      0,
+      "cba8d574f9934e5530e33dfe9cdbb5eb"
+    ]
+  ]
+]

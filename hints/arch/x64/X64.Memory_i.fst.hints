@@ -1,0 +1,834 @@
+[
+  "X‡ÑŽ­\u0002Qz1l³w…\u0012µ8",
+  [
+    [
+      "X64.Memory_i.typ",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_X64.Memory_i.base_typ__uu___haseq" ],
+      0,
+      "2b6996dfd5b3bc7c9325f80d59c87981"
+    ],
+    [
+      "X64.Memory_i.type_of_base_typ",
+      1,
+      1,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "disc_equation_X64.Memory_i.TUInt128",
+        "disc_equation_X64.Memory_i.TUInt16",
+        "disc_equation_X64.Memory_i.TUInt32",
+        "disc_equation_X64.Memory_i.TUInt64",
+        "disc_equation_X64.Memory_i.TUInt8",
+        "fuel_guarded_inversion_X64.Memory_i.base_typ"
+      ],
+      0,
+      "c11e7f5db96e6c3c64824bd0b544a90b"
+    ],
+    [
+      "X64.Memory_i.coerce",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "refinement_interpretation_X64.Memory_i_Tm_refine_f6dd87ea360114ec1596c0358f9c81f1"
+      ],
+      0,
+      "7af0be1f00ab2254415b59abe731ba7c"
+    ],
+    [
+      "X64.Memory_i.m_of_typ",
+      1,
+      1,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "disc_equation_X64.Memory_i.TUInt128",
+        "disc_equation_X64.Memory_i.TUInt16",
+        "disc_equation_X64.Memory_i.TUInt32",
+        "disc_equation_X64.Memory_i.TUInt64",
+        "disc_equation_X64.Memory_i.TUInt8",
+        "fuel_guarded_inversion_X64.Memory_i.base_typ",
+        "proj_equation_X64.Memory_i.TBase_b",
+        "typing_X64.Memory_i.__proj__TBase__item__b"
+      ],
+      0,
+      "98b3cafe759cc07e7c06eee33b34b4bd"
+    ],
+    [
+      "X64.Memory_i.buffer_as_seq",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "constructor_distinct_Tm_unit",
+        "constructor_distinct_X64.Memory_i_s.TUInt128",
+        "constructor_distinct_X64.Memory_i_s.TUInt16",
+        "constructor_distinct_X64.Memory_i_s.TUInt32",
+        "constructor_distinct_X64.Memory_i_s.TUInt64",
+        "constructor_distinct_X64.Memory_i_s.TUInt8",
+        "equality_tok_X64.Memory_i_s.TUInt128@tok",
+        "equality_tok_X64.Memory_i_s.TUInt16@tok",
+        "equality_tok_X64.Memory_i_s.TUInt32@tok",
+        "equality_tok_X64.Memory_i_s.TUInt64@tok",
+        "equality_tok_X64.Memory_i_s.TUInt8@tok",
+        "equation_X64.Memory_i.m_of_typ",
+        "equation_X64.Memory_i.type_of_base_typ",
+        "equation_X64.Memory_i.type_of_typ",
+        "equation_X64.Memory_i_s.type_of_base_typ",
+        "equation_X64.Memory_i_s.type_of_typ",
+        "fuel_guarded_inversion_X64.Memory_i_s.typ",
+        "projection_inverse_X64.Memory_i_s.TBase_b",
+        "typing_X64.Memory_i.m_of_typ"
+      ],
+      0,
+      "c6b1c8b18a00e1296843d08786843885"
+    ],
+    [
+      "X64.Memory_i.loc_locs_disjoint_rec",
+      1,
+      1,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "binder_x_4dae2a05068fd68b863ac2987f98364e_1",
+        "disc_equation_Prims.Cons", "disc_equation_Prims.Nil",
+        "equality_tok_Prims.LexTop@tok", "equation_X64.Memory_i.loc",
+        "fuel_guarded_inversion_Prims.list", "subterm_ordering_Prims.Cons"
+      ],
+      0,
+      "2e5362b7ff0ca0e2c7c00cb8f11fcc2c"
+    ],
+    [
+      "X64.Memory_i.locs_disjoint_rec",
+      1,
+      1,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "binder_x_4dae2a05068fd68b863ac2987f98364e_0",
+        "disc_equation_Prims.Cons", "disc_equation_Prims.Nil",
+        "equation_X64.Memory_i.loc", "fuel_guarded_inversion_Prims.list",
+        "subterm_ordering_Prims.Cons"
+      ],
+      0,
+      "22c4783cef47d3600c5d55f0d1cb5c44"
+    ],
+    [
+      "X64.Memory_i.lemma_modifies_goal_directed",
+      1,
+      1,
+      0,
+      [ "@query", "equation_X64.Memory_i.modifies_goal_directed" ],
+      0,
+      "ef2f3b913999b2eb82af23794ecd3f48"
+    ],
+    [
+      "X64.Memory_i.buffer_length_buffer_as_seq",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "constructor_distinct_Tm_unit",
+        "constructor_distinct_X64.Memory_i.TUInt128",
+        "constructor_distinct_X64.Memory_i.TUInt16",
+        "constructor_distinct_X64.Memory_i.TUInt32",
+        "constructor_distinct_X64.Memory_i.TUInt64",
+        "constructor_distinct_X64.Memory_i_s.TUInt128",
+        "constructor_distinct_X64.Memory_i_s.TUInt16",
+        "constructor_distinct_X64.Memory_i_s.TUInt32",
+        "constructor_distinct_X64.Memory_i_s.TUInt64",
+        "constructor_distinct_X64.Memory_i_s.TUInt8",
+        "data_typing_intro_X64.Memory_i.TBase@tok",
+        "equality_tok_X64.Memory_i.TUInt128@tok",
+        "equality_tok_X64.Memory_i.TUInt16@tok",
+        "equality_tok_X64.Memory_i.TUInt32@tok",
+        "equality_tok_X64.Memory_i.TUInt64@tok",
+        "equality_tok_X64.Memory_i_s.TUInt128@tok",
+        "equality_tok_X64.Memory_i_s.TUInt16@tok",
+        "equality_tok_X64.Memory_i_s.TUInt32@tok",
+        "equality_tok_X64.Memory_i_s.TUInt64@tok",
+        "equality_tok_X64.Memory_i_s.TUInt8@tok",
+        "equation_X64.Memory_i.buffer_as_seq",
+        "equation_X64.Memory_i.buffer_length",
+        "equation_X64.Memory_i.m_of_typ",
+        "equation_X64.Memory_i.type_of_base_typ",
+        "equation_X64.Memory_i.type_of_typ",
+        "equation_X64.Memory_i_s.type_of_base_typ",
+        "equation_X64.Memory_i_s.type_of_typ",
+        "fuel_guarded_inversion_X64.Memory_i_s.typ",
+        "projection_inverse_X64.Memory_i.TBase_b",
+        "projection_inverse_X64.Memory_i_s.TBase_b",
+        "typing_X64.Memory_i.m_of_typ",
+        "typing_tok_X64.Memory_i.TUInt16@tok",
+        "typing_tok_X64.Memory_i.TUInt32@tok",
+        "typing_tok_X64.Memory_i.TUInt64@tok"
+      ],
+      0,
+      "9d8d84437768d4ae58bda32652ded509"
+    ],
+    [
+      "X64.Memory_i.modifies_buffer_elim",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "equation_X64.Memory_i.buffer_as_seq",
+        "equation_X64.Memory_i.buffer_readable",
+        "equation_X64.Memory_i.loc_buffer",
+        "equation_X64.Memory_i.loc_disjoint",
+        "equation_X64.Memory_i.modifies",
+        "fuel_guarded_inversion_X64.Memory_i.typ"
+      ],
+      0,
+      "9dd1d48a837eb92af311799a1cc006de"
+    ],
+    [
+      "X64.Memory_i.modifies_buffer_addr",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "equation_X64.Memory_i.buffer_addr",
+        "equation_X64.Memory_i.modifies",
+        "fuel_guarded_inversion_X64.Memory_i.typ"
+      ],
+      0,
+      "64b292550d06f2f7f7d4b18c7ddd271f"
+    ],
+    [
+      "X64.Memory_i.loc_disjoint_none_r",
+      1,
+      1,
+      0,
+      [
+        "@query", "equation_X64.Memory_i.loc_disjoint",
+        "equation_X64.Memory_i.loc_none"
+      ],
+      0,
+      "15dfbd065c6af24fd2c3e1f86b53f5f8"
+    ],
+    [
+      "X64.Memory_i.loc_disjoint_union_r",
+      1,
+      1,
+      0,
+      [
+        "@query", "equation_X64.Memory_i.loc_disjoint",
+        "equation_X64.Memory_i.loc_union"
+      ],
+      0,
+      "699fe55cc68157308b3947e1a9285ab5"
+    ],
+    [
+      "X64.Memory_i.loc_includes_refl",
+      1,
+      1,
+      0,
+      [ "@query", "equation_X64.Memory_i.loc_includes" ],
+      0,
+      "1ca2d2f63c2491109630af03c31d2afd"
+    ],
+    [
+      "X64.Memory_i.loc_includes_trans",
+      1,
+      1,
+      0,
+      [ "@query", "equation_X64.Memory_i.loc_includes" ],
+      0,
+      "0e3a2ba581e73aca3e742b641d1d4ad2"
+    ],
+    [
+      "X64.Memory_i.loc_includes_union_r",
+      1,
+      1,
+      0,
+      [
+        "@query", "equation_X64.Memory_i.loc_includes",
+        "equation_X64.Memory_i.loc_union"
+      ],
+      0,
+      "e3876172052dcaa22475db5cbcd98d08"
+    ],
+    [
+      "X64.Memory_i.loc_includes_union_l",
+      1,
+      1,
+      0,
+      [
+        "@query", "equation_X64.Memory_i.loc_includes",
+        "equation_X64.Memory_i.loc_union"
+      ],
+      0,
+      "85071a850594df72e889f841d23bc55e"
+    ],
+    [
+      "X64.Memory_i.loc_includes_union_l_buffer",
+      1,
+      1,
+      0,
+      [
+        "@query", "equation_X64.Memory_i.loc_includes",
+        "equation_X64.Memory_i.loc_union"
+      ],
+      0,
+      "55e044e7cb3e375e03690ddc91605d0e"
+    ],
+    [
+      "X64.Memory_i.loc_includes_none",
+      1,
+      1,
+      0,
+      [
+        "@query", "equation_X64.Memory_i.loc_includes",
+        "equation_X64.Memory_i.loc_none"
+      ],
+      0,
+      "a1f55760b4506e8df5c782972cf2b5b6"
+    ],
+    [
+      "X64.Memory_i.modifies_refl",
+      1,
+      1,
+      0,
+      [ "@query", "equation_X64.Memory_i.modifies" ],
+      0,
+      "d3df679a5a9706890ab47bfd231492cd"
+    ],
+    [
+      "X64.Memory_i.modifies_goal_directed_refl",
+      1,
+      1,
+      0,
+      [
+        "@query", "equation_X64.Memory_i.modifies_goal_directed",
+        "lemma_X64.Memory_i.modifies_refl"
+      ],
+      0,
+      "2a3e5e6aa4be7b329bcb77f9d783d53a"
+    ],
+    [
+      "X64.Memory_i.modifies_loc_includes",
+      1,
+      1,
+      0,
+      [
+        "@query", "equation_X64.Memory_i.loc_includes",
+        "equation_X64.Memory_i.modifies"
+      ],
+      0,
+      "258d7ccd09203c478cd8f646fc796580"
+    ],
+    [
+      "X64.Memory_i.modifies_trans",
+      1,
+      1,
+      0,
+      [
+        "@query", "equation_X64.Memory_i.loc_union",
+        "equation_X64.Memory_i.modifies"
+      ],
+      0,
+      "c5d3659ff30b69c93811c4ff88a5f9d3"
+    ],
+    [
+      "X64.Memory_i.modifies_goal_directed_trans",
+      1,
+      1,
+      0,
+      [
+        "@query", "equation_X64.Memory_i.modifies_goal_directed",
+        "lemma_X64.Memory_i.loc_includes_refl",
+        "lemma_X64.Memory_i.loc_includes_union_r"
+      ],
+      0,
+      "238ea2bc7877c972fc55f08902f3ce03"
+    ],
+    [
+      "X64.Memory_i.modifies_goal_directed_trans2",
+      1,
+      1,
+      0,
+      [ "@query", "equation_X64.Memory_i.modifies_goal_directed" ],
+      0,
+      "b916fe1f9e55a0c69b9c2cc7b95e75af"
+    ],
+    [
+      "X64.Memory_i.buffer_read",
+      1,
+      1,
+      0,
+      [ "@query", "lemma_X64.Memory_i.buffer_length_buffer_as_seq" ],
+      0,
+      "549ef7d0278cc8bbdaf6da837ca796e9"
+    ],
+    [
+      "X64.Memory_i.buffer_read",
+      2,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "constructor_distinct_Tm_unit",
+        "constructor_distinct_X64.Memory_i.TUInt128",
+        "constructor_distinct_X64.Memory_i.TUInt16",
+        "constructor_distinct_X64.Memory_i.TUInt32",
+        "constructor_distinct_X64.Memory_i.TUInt64",
+        "constructor_distinct_X64.Memory_i_s.TBase",
+        "constructor_distinct_X64.Memory_i_s.TUInt128",
+        "constructor_distinct_X64.Memory_i_s.TUInt16",
+        "constructor_distinct_X64.Memory_i_s.TUInt32",
+        "constructor_distinct_X64.Memory_i_s.TUInt64",
+        "constructor_distinct_X64.Memory_i_s.TUInt8",
+        "data_typing_intro_X64.Memory_i.TBase@tok",
+        "equality_tok_X64.Memory_i.TUInt128@tok",
+        "equality_tok_X64.Memory_i.TUInt16@tok",
+        "equality_tok_X64.Memory_i.TUInt32@tok",
+        "equality_tok_X64.Memory_i.TUInt64@tok",
+        "equality_tok_X64.Memory_i_s.TUInt128@tok",
+        "equality_tok_X64.Memory_i_s.TUInt16@tok",
+        "equality_tok_X64.Memory_i_s.TUInt32@tok",
+        "equality_tok_X64.Memory_i_s.TUInt64@tok",
+        "equality_tok_X64.Memory_i_s.TUInt8@tok",
+        "equation_X64.Memory_i.buffer_as_seq",
+        "equation_X64.Memory_i.buffer_length",
+        "equation_X64.Memory_i.buffer_readable",
+        "equation_X64.Memory_i.m_of_typ",
+        "equation_X64.Memory_i.type_of_base_typ",
+        "equation_X64.Memory_i.type_of_typ",
+        "equation_X64.Memory_i_s.type_of_base_typ",
+        "equation_X64.Memory_i_s.type_of_typ",
+        "fuel_guarded_inversion_X64.Memory_i.typ",
+        "fuel_guarded_inversion_X64.Memory_i_s.typ",
+        "projection_inverse_X64.Memory_i.TBase_b",
+        "projection_inverse_X64.Memory_i_s.TBase_b",
+        "typing_X64.Memory_i.m_of_typ",
+        "typing_tok_X64.Memory_i.TUInt16@tok",
+        "typing_tok_X64.Memory_i.TUInt32@tok",
+        "typing_tok_X64.Memory_i.TUInt64@tok"
+      ],
+      0,
+      "bd10e0113fd19752547ec630c3302f82"
+    ],
+    [
+      "X64.Memory_i.buffer_write",
+      1,
+      1,
+      0,
+      [ "@query", "lemma_X64.Memory_i.buffer_length_buffer_as_seq" ],
+      0,
+      "0e4ca5ff7d3129838fd0210c2b5491c1"
+    ],
+    [
+      "X64.Memory_i.buffer_write",
+      2,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "constructor_distinct_Tm_unit",
+        "constructor_distinct_X64.Memory_i.TUInt128",
+        "constructor_distinct_X64.Memory_i.TUInt16",
+        "constructor_distinct_X64.Memory_i.TUInt32",
+        "constructor_distinct_X64.Memory_i.TUInt64",
+        "constructor_distinct_X64.Memory_i.TUInt8",
+        "constructor_distinct_X64.Memory_i_s.TBase",
+        "constructor_distinct_X64.Memory_i_s.TUInt128",
+        "constructor_distinct_X64.Memory_i_s.TUInt16",
+        "constructor_distinct_X64.Memory_i_s.TUInt32",
+        "constructor_distinct_X64.Memory_i_s.TUInt64",
+        "constructor_distinct_X64.Memory_i_s.TUInt8",
+        "data_typing_intro_X64.Memory_i.TBase@tok",
+        "equality_tok_X64.Memory_i.TUInt128@tok",
+        "equality_tok_X64.Memory_i.TUInt16@tok",
+        "equality_tok_X64.Memory_i.TUInt32@tok",
+        "equality_tok_X64.Memory_i.TUInt64@tok",
+        "equality_tok_X64.Memory_i.TUInt8@tok",
+        "equality_tok_X64.Memory_i_s.TUInt128@tok",
+        "equality_tok_X64.Memory_i_s.TUInt16@tok",
+        "equality_tok_X64.Memory_i_s.TUInt32@tok",
+        "equality_tok_X64.Memory_i_s.TUInt64@tok",
+        "equality_tok_X64.Memory_i_s.TUInt8@tok",
+        "equation_X64.Memory_i.buffer_as_seq",
+        "equation_X64.Memory_i.buffer_length",
+        "equation_X64.Memory_i.buffer_readable",
+        "equation_X64.Memory_i.loc_buffer", "equation_X64.Memory_i.m_of_typ",
+        "equation_X64.Memory_i.mem", "equation_X64.Memory_i.modifies",
+        "equation_X64.Memory_i.type_of_base_typ",
+        "equation_X64.Memory_i.type_of_typ",
+        "equation_X64.Memory_i_s.type_of_base_typ",
+        "equation_X64.Memory_i_s.type_of_typ",
+        "fuel_guarded_inversion_X64.Memory_i.typ",
+        "fuel_guarded_inversion_X64.Memory_i_s.typ",
+        "projection_inverse_X64.Memory_i.TBase_b",
+        "projection_inverse_X64.Memory_i_s.TBase_b",
+        "typing_X64.Memory_i.m_of_typ",
+        "typing_tok_X64.Memory_i.TUInt16@tok",
+        "typing_tok_X64.Memory_i.TUInt32@tok",
+        "typing_tok_X64.Memory_i.TUInt64@tok"
+      ],
+      0,
+      "934f86fb40c4affae874b0ad9d98b483"
+    ],
+    [
+      "X64.Memory_i.lemma_valid_mem64",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "bool_inversion",
+        "constructor_distinct_X64.Memory_i.TUInt64",
+        "data_typing_intro_X64.Memory_i.TBase@tok",
+        "equality_tok_X64.Memory_i.TUInt64@tok",
+        "equation_X64.Memory_i.buffer", "equation_X64.Memory_i.buffer_addr",
+        "equation_X64.Memory_i.buffer_length",
+        "equation_X64.Memory_i.buffer_readable",
+        "equation_X64.Memory_i.m_of_typ", "equation_X64.Memory_i.mem",
+        "equation_X64.Memory_i.valid_mem64", "int_typing",
+        "lemma_X64.Memory_i.buffer_length_buffer_as_seq",
+        "lemma_X64.Memory_i_s.buffer_length_buffer_as_seq",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_X64.Memory_i.TBase_b",
+        "typing_X64.Memory_i.m_of_typ", "typing_X64.Memory_i_s.valid_mem64",
+        "typing_tok_X64.Memory_i.TUInt64@tok"
+      ],
+      0,
+      "28165b55b9dfa266e6e1a7543c38078f"
+    ],
+    [
+      "X64.Memory_i.lemma_load_mem64",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_ae567c2fb75be05905677af440075565",
+        "constructor_distinct_X64.Memory_i.TUInt64",
+        "equality_tok_X64.Memory_i.TUInt64@tok", "equation_Prims.nat",
+        "equation_Words_s.nat64", "equation_Words_s.natN",
+        "equation_Words_s.pow2_1", "equation_X64.Memory_i.type_of_base_typ",
+        "equation_X64.Memory_i.type_of_typ",
+        "function_token_typing_Words_s.pow2_1",
+        "projection_inverse_BoxInt_proj_0",
+        "projection_inverse_X64.Memory_i.TBase_b",
+        "refinement_interpretation_FStar.Seq.Base_Tm_refine_5514fbe9e08dfda40f950a7b9f1b2b98",
+        "refinement_interpretation_Prims_Tm_refine_a4038d5aed1633b5ecbb4e499b1c66ad"
+      ],
+      0,
+      "b81f8d5e6fd4aac548863eb1d3144300"
+    ],
+    [
+      "X64.Memory_i.lemma_load_mem64",
+      2,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "constructor_distinct_X64.Memory_i.TUInt64",
+        "data_typing_intro_X64.Memory_i.TBase@tok",
+        "equality_tok_X64.Memory_i.TUInt64@tok", "equation_Prims.nat",
+        "equation_X64.Memory_i.buffer", "equation_X64.Memory_i.buffer_addr",
+        "equation_X64.Memory_i.buffer_length",
+        "equation_X64.Memory_i.buffer_read",
+        "equation_X64.Memory_i.buffer_readable",
+        "equation_X64.Memory_i.load_mem64", "equation_X64.Memory_i.m_of_typ",
+        "equation_X64.Memory_i.mem", "int_inversion",
+        "lemma_X64.Memory_i.buffer_length_buffer_as_seq",
+        "lemma_X64.Memory_i_s.buffer_length_buffer_as_seq",
+        "projection_inverse_X64.Memory_i.TBase_b",
+        "refinement_interpretation_Prims_Tm_refine_a4038d5aed1633b5ecbb4e499b1c66ad",
+        "typing_X64.Memory_i.m_of_typ", "typing_tok_X64.Memory_i.TUInt64@tok"
+      ],
+      0,
+      "0e6770b5745d88c65ca97c948486f417"
+    ],
+    [
+      "X64.Memory_i.lemma_store_mem64",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.l_and",
+        "equation_Prims.squash", "l_and-interp",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "e1abcc3b0320786719bf777eaefc27b6"
+    ],
+    [
+      "X64.Memory_i.lemma_store_mem64",
+      2,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_ae567c2fb75be05905677af440075565",
+        "constructor_distinct_X64.Memory_i.TUInt64",
+        "data_typing_intro_X64.Memory_i.TBase@tok",
+        "equality_tok_X64.Memory_i.TUInt64@tok", "equation_Prims.nat",
+        "equation_Words_s.nat64", "equation_Words_s.natN",
+        "equation_Words_s.pow2_1", "equation_X64.Memory_i.buffer",
+        "equation_X64.Memory_i.buffer_addr",
+        "equation_X64.Memory_i.buffer_length",
+        "equation_X64.Memory_i.buffer_readable",
+        "equation_X64.Memory_i.buffer_write",
+        "equation_X64.Memory_i.m_of_typ", "equation_X64.Memory_i.mem",
+        "equation_X64.Memory_i.store_mem64",
+        "function_token_typing_Words_s.pow2_1", "int_inversion",
+        "lemma_X64.Memory_i.buffer_length_buffer_as_seq",
+        "lemma_X64.Memory_i_s.buffer_length_buffer_as_seq",
+        "projection_inverse_X64.Memory_i.TBase_b",
+        "refinement_interpretation_FStar.Seq.Base_Tm_refine_5514fbe9e08dfda40f950a7b9f1b2b98",
+        "refinement_interpretation_Prims_Tm_refine_a4038d5aed1633b5ecbb4e499b1c66ad",
+        "typing_X64.Memory_i.m_of_typ", "typing_tok_X64.Memory_i.TUInt64@tok"
+      ],
+      0,
+      "e27ef3c956c932fac8941142d31941c6"
+    ],
+    [
+      "X64.Memory_i.lemma_valid_mem128",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "bool_inversion",
+        "constructor_distinct_X64.Memory_i.TUInt128",
+        "data_typing_intro_X64.Memory_i.TBase@tok",
+        "equality_tok_X64.Memory_i.TUInt128@tok",
+        "equation_X64.Memory_i.buffer", "equation_X64.Memory_i.buffer_addr",
+        "equation_X64.Memory_i.buffer_length",
+        "equation_X64.Memory_i.buffer_readable",
+        "equation_X64.Memory_i.m_of_typ", "equation_X64.Memory_i.mem",
+        "equation_X64.Memory_i.valid_mem128", "int_typing",
+        "lemma_X64.Memory_i.buffer_length_buffer_as_seq",
+        "lemma_X64.Memory_i_s.buffer_length_buffer_as_seq",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_X64.Memory_i.TBase_b",
+        "typing_X64.Memory_i.m_of_typ", "typing_X64.Memory_i_s.valid_mem128",
+        "typing_tok_X64.Memory_i.TUInt128@tok"
+      ],
+      0,
+      "7372861dc212ddaf7354a09bc1c08f7b"
+    ],
+    [
+      "X64.Memory_i.lemma_load_mem128",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "constructor_distinct_X64.Memory_i.TUInt128",
+        "data_typing_intro_X64.Memory_i.TBase@tok",
+        "equality_tok_X64.Memory_i.TUInt128@tok", "equation_Prims.nat",
+        "equation_X64.Memory_i.buffer", "equation_X64.Memory_i.buffer_addr",
+        "equation_X64.Memory_i.buffer_length",
+        "equation_X64.Memory_i.buffer_read",
+        "equation_X64.Memory_i.buffer_readable",
+        "equation_X64.Memory_i.load_mem128",
+        "equation_X64.Memory_i.m_of_typ", "equation_X64.Memory_i.mem",
+        "int_inversion", "lemma_X64.Memory_i.buffer_length_buffer_as_seq",
+        "lemma_X64.Memory_i_s.buffer_length_buffer_as_seq",
+        "projection_inverse_X64.Memory_i.TBase_b",
+        "refinement_interpretation_Prims_Tm_refine_a4038d5aed1633b5ecbb4e499b1c66ad",
+        "typing_X64.Memory_i.m_of_typ",
+        "typing_tok_X64.Memory_i.TUInt128@tok"
+      ],
+      0,
+      "93865370896b786e189f0714bbf7d401"
+    ],
+    [
+      "X64.Memory_i.lemma_store_mem128",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.l_and",
+        "equation_Prims.squash", "l_and-interp",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "a2b083237f90f4408f54dc09fc83ad27"
+    ],
+    [
+      "X64.Memory_i.lemma_store_mem128",
+      2,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "constructor_distinct_X64.Memory_i.TUInt128",
+        "data_typing_intro_X64.Memory_i.TBase@tok",
+        "equality_tok_X64.Memory_i.TUInt128@tok", "equation_Prims.nat",
+        "equation_Types_s.quad32", "equation_Words_s.nat32",
+        "equation_X64.Memory_i.buffer", "equation_X64.Memory_i.buffer_addr",
+        "equation_X64.Memory_i.buffer_length",
+        "equation_X64.Memory_i.buffer_readable",
+        "equation_X64.Memory_i.buffer_write",
+        "equation_X64.Memory_i.m_of_typ", "equation_X64.Memory_i.mem",
+        "equation_X64.Memory_i.store_mem128",
+        "fuel_guarded_inversion_Words_s.four", "int_inversion",
+        "lemma_X64.Memory_i.buffer_length_buffer_as_seq",
+        "lemma_X64.Memory_i_s.buffer_length_buffer_as_seq",
+        "projection_inverse_X64.Memory_i.TBase_b",
+        "refinement_interpretation_Prims_Tm_refine_a4038d5aed1633b5ecbb4e499b1c66ad",
+        "typing_X64.Memory_i.m_of_typ",
+        "typing_tok_X64.Memory_i.TUInt128@tok"
+      ],
+      0,
+      "b213f5cc0dc1c2fc4ac392ac84b645af"
+    ],
+    [
+      "X64.Memory_i.lemma_store_load_mem64",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_ae567c2fb75be05905677af440075565",
+        "assumption_Prims.HasEq_int", "equation_Prims.nat",
+        "equation_Words_s.nat64", "equation_Words_s.natN",
+        "equation_Words_s.pow2_1", "function_token_typing_Words_s.pow2_1",
+        "haseqFStar.Seq.Base_Tm_refine_5514fbe9e08dfda40f950a7b9f1b2b98",
+        "haseqPrims_Tm_refine_a4038d5aed1633b5ecbb4e499b1c66ad"
+      ],
+      0,
+      "ebee08ad8746124ed840a3151db96e64"
+    ],
+    [
+      "X64.Memory_i.lemma_store_load_mem64",
+      2,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_X64.Memory_i.load_mem64",
+        "equation_X64.Memory_i.store_mem64",
+        "equation_X64.Memory_i.valid_mem64", "int_inversion"
+      ],
+      0,
+      "61afb0ba26d60a4dfa25f37bfaedb6af"
+    ],
+    [
+      "X64.Memory_i.lemma_frame_store_mem64",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_ae567c2fb75be05905677af440075565",
+        "assumption_Prims.HasEq_int", "equation_Prims.nat",
+        "equation_Words_s.nat64", "equation_Words_s.natN",
+        "equation_Words_s.pow2_1", "function_token_typing_Words_s.pow2_1",
+        "haseqFStar.Seq.Base_Tm_refine_5514fbe9e08dfda40f950a7b9f1b2b98",
+        "haseqPrims_Tm_refine_a4038d5aed1633b5ecbb4e499b1c66ad"
+      ],
+      0,
+      "92c1f6021f0d32f32f28a0f5c2cbafe0"
+    ],
+    [
+      "X64.Memory_i.lemma_frame_store_mem64",
+      2,
+      1,
+      0,
+      [
+        "@query", "equation_X64.Memory_i.load_mem64",
+        "equation_X64.Memory_i.store_mem64",
+        "equation_X64.Memory_i.valid_mem64"
+      ],
+      0,
+      "e55a17f012ce26e34042123fd58692f7"
+    ],
+    [
+      "X64.Memory_i.lemma_valid_store_mem64",
+      1,
+      1,
+      0,
+      [
+        "@query", "equation_X64.Memory_i.store_mem64",
+        "equation_X64.Memory_i.valid_mem64"
+      ],
+      0,
+      "a7bdf01d68f36fa328350b3ac218674e"
+    ],
+    [
+      "X64.Memory_i.lemma_store_load_mem128",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_ae567c2fb75be05905677af440075565",
+        "assumption_Prims.HasEq_int", "assumption_Words_s.four__uu___haseq",
+        "equation_Prims.nat", "equation_Types_s.quad32",
+        "equation_Words_s.nat32", "equation_Words_s.natN",
+        "equation_Words_s.pow2_1", "function_token_typing_Words_s.nat32",
+        "function_token_typing_Words_s.pow2_1",
+        "haseqFStar.Seq.Base_Tm_refine_5514fbe9e08dfda40f950a7b9f1b2b98",
+        "haseqPrims_Tm_refine_a4038d5aed1633b5ecbb4e499b1c66ad"
+      ],
+      0,
+      "2ff1d82f247659db95ad20f370b14af3"
+    ],
+    [
+      "X64.Memory_i.lemma_store_load_mem128",
+      2,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Types_s.quad32",
+        "equation_Words_s.nat32", "equation_X64.Memory_i.load_mem128",
+        "equation_X64.Memory_i.store_mem128",
+        "equation_X64.Memory_i.valid_mem128",
+        "fuel_guarded_inversion_Words_s.four", "int_inversion"
+      ],
+      0,
+      "d422bebf9a5e449808a09a466160edff"
+    ],
+    [
+      "X64.Memory_i.lemma_frame_store_mem128",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_ae567c2fb75be05905677af440075565",
+        "assumption_Prims.HasEq_int", "assumption_Words_s.four__uu___haseq",
+        "equation_Prims.nat", "equation_Types_s.quad32",
+        "equation_Words_s.nat32", "equation_Words_s.natN",
+        "equation_Words_s.pow2_1", "function_token_typing_Words_s.nat32",
+        "function_token_typing_Words_s.pow2_1",
+        "haseqFStar.Seq.Base_Tm_refine_5514fbe9e08dfda40f950a7b9f1b2b98",
+        "haseqPrims_Tm_refine_a4038d5aed1633b5ecbb4e499b1c66ad"
+      ],
+      0,
+      "012114c01c1c5815c083ee0c8fc5b78d"
+    ],
+    [
+      "X64.Memory_i.lemma_frame_store_mem128",
+      2,
+      1,
+      0,
+      [
+        "@query", "equation_X64.Memory_i.load_mem128",
+        "equation_X64.Memory_i.store_mem128",
+        "equation_X64.Memory_i.valid_mem128"
+      ],
+      0,
+      "0607016b2ef6e68bf543abd5d79ccb09"
+    ],
+    [
+      "X64.Memory_i.lemma_valid_store_mem128",
+      1,
+      1,
+      0,
+      [
+        "@query", "equation_X64.Memory_i.store_mem128",
+        "equation_X64.Memory_i.valid_mem128"
+      ],
+      0,
+      "1c56ede3c2a95e8b5fd8255611c2628e"
+    ]
+  ]
+]

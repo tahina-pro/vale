@@ -1,0 +1,83 @@
+[
+  "LDƒ\u0013\t÷zŸbW‚\u0015ÙÀµ©",
+  [
+    [
+      "Math.Poly2.Lemmas_i.lemma_one_define",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "4a707257f09261fda867aa953814b623"
+    ],
+    [
+      "Math.Poly2.Lemmas_i.lemma_monomial_define",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "00bd3890ac158a6bd0116e031d1689fa"
+    ],
+    [
+      "Math.Poly2.Lemmas_i.lemma_of_list_degree",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption",
+        "@fuel_correspondence_FStar.List.Tot.Base.length.fuel_instrumented",
+        "@query", "Prims_pretyping_ae567c2fb75be05905677af440075565",
+        "Prims_pretyping_f537159ed795b314b4e58c260361ae86", "bool_typing",
+        "equation_Prims.nat", "function_token_typing_Prims.bool",
+        "int_inversion", "int_typing",
+        "refinement_interpretation_Prims_Tm_refine_a4038d5aed1633b5ecbb4e499b1c66ad",
+        "typing_FStar.List.Tot.Base.length"
+      ],
+      0,
+      "93d5d18c5e641665084a68828de86a52"
+    ],
+    [
+      "Math.Poly2.Lemmas_i.lemma_add_define",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_bool" ],
+      0,
+      "3f0f18fcf752152d1dd7aa315de43153"
+    ],
+    [
+      "Math.Poly2.Lemmas_i.lemma_add_define_all",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_bool" ],
+      0,
+      "b0a7f65bc9dd4b85d56f7bc9f160d30b"
+    ],
+    [
+      "Math.Poly2.Lemmas_i.lemma_mul_monomials",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.nat",
+        "refinement_interpretation_Prims_Tm_refine_a4038d5aed1633b5ecbb4e499b1c66ad"
+      ],
+      0,
+      "a32dc64d0f4673233f714fe9f2105bda"
+    ],
+    [
+      "Math.Poly2.Lemmas_i.lemma_mul_reverse_shift_1",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.nat",
+        "refinement_interpretation_Prims_Tm_refine_a4038d5aed1633b5ecbb4e499b1c66ad"
+      ],
+      0,
+      "4db6876691aceda5b5032c9b1d8b4822"
+    ]
+  ]
+]

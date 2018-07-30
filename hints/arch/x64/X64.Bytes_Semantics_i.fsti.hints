@@ -1,0 +1,41 @@
+[
+  "∑>ç1ú¸\u001c‚ÿ\u0006Œß\u007fÎNS",
+  [
+    [
+      "X64.Bytes_Semantics_i.same_mem_get_heap_val",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "72d8cfb5d8cc21a9965cc30972c56fe2"
+    ],
+    [
+      "X64.Bytes_Semantics_i.frame_update_heap",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "45726bcaa3884ed4aa433b7dfc441393"
+    ],
+    [
+      "X64.Bytes_Semantics_i.same_mem_get_heap_val32",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "d4f86a1ed8079795538a04e7f4b1854a"
+    ],
+    [
+      "X64.Bytes_Semantics_i.frame_update_heap128",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "b15ab4696adac9d3819e04fcc2598404"
+    ]
+  ]
+]

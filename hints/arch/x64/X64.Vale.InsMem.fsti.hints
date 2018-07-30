@@ -1,0 +1,53 @@
+[
+  "1\u0007ÛpêÏy¦^¾\u0018\u0010Âv©4",
+  [
+    [
+      "X64.Vale.InsMem.va_wpProof_Load64_buffer",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "0491b79dce621289dfc4f0052fdc1e77"
+    ],
+    [
+      "X64.Vale.InsMem.va_wpProof_Store64_buffer",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "976e41cb6c0ed4a86a1e6fb7182c64bd"
+    ],
+    [
+      "X64.Vale.InsMem.va_wpProof_Pop",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "e2c20fc4b0f96e8b4d63fb78cc092555"
+    ],
+    [
+      "X64.Vale.InsMem.va_wpProof_Push",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "b48e0644713dfb970073aeaf2ae3f3fb"
+    ]
+  ]
+]

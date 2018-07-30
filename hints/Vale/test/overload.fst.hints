@@ -1,0 +1,258 @@
+[
+  "[yòÀ\fŸ“DH» 5\nÔR—",
+  [
+    [
+      "Overload.ins",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "16edeb020bd4cc84aecbc5477d176cc5"
+    ],
+    [
+      "Overload.ocmp",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Overload.reg__uu___haseq" ],
+      0,
+      "55a099ee7c8d1a51b0f643e5300f4ab7"
+    ],
+    [
+      "Overload.va_code",
+      1,
+      1,
+      0,
+      [
+        "@query", "assumption_Overload.ins__uu___haseq",
+        "assumption_Overload.ocmp__uu___haseq",
+        "assumption_Prims.list__uu___haseq", "kinding_Overload.va_code@tok"
+      ],
+      0,
+      "ca6f95d6adf9273eebf1a81b06bf7517"
+    ],
+    [
+      "Overload.__proj__Ins__item__ins",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Overload.Ins",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Overload_Tm_refine_c8133843350debf50cc2cdeaeb4cf3f1"
+      ],
+      0,
+      "d64f32fe580f844600bcbfcdeb37ca1e"
+    ],
+    [
+      "Overload.__proj__Block__item__block",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Overload.Block",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Overload_Tm_refine_9b89a26887f07aefe7965681e2130250"
+      ],
+      0,
+      "dcaf864f3e891ad9041f777b02b7d162"
+    ],
+    [
+      "Overload.__proj__IfElse__item__ifCond",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Overload.IfElse",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Overload_Tm_refine_88ce378c78204ef59246e5bc5272b9f0"
+      ],
+      0,
+      "a10e9ddd4e01d14066b7c86709750e57"
+    ],
+    [
+      "Overload.__proj__IfElse__item__ifTrue",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Overload.IfElse",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Overload_Tm_refine_88ce378c78204ef59246e5bc5272b9f0"
+      ],
+      0,
+      "5ad28be2a032221cf75c656e9a831233"
+    ],
+    [
+      "Overload.__proj__IfElse__item__ifFalse",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Overload.IfElse",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Overload_Tm_refine_88ce378c78204ef59246e5bc5272b9f0"
+      ],
+      0,
+      "d4ba2f3fe1dca46191fd4a9f81a21d68"
+    ],
+    [
+      "Overload.va_state",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Overload.reg__uu___haseq" ],
+      0,
+      "ccf799b13edc3e1fce0b45cf65a14e34"
+    ],
+    [
+      "Overload.va_get_reg",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Overload.reg__uu___haseq" ],
+      0,
+      "cd004fc9802b19721131b784d54e7eef"
+    ],
+    [
+      "Overload.va_update_reg",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Overload.reg__uu___haseq" ],
+      0,
+      "7b8c459fbe68c0c1a6b5fdf144d30e66"
+    ],
+    [
+      "Overload.va_update_reg",
+      2,
+      1,
+      0,
+      [ "@query", "assumption_Overload.reg__uu___haseq" ],
+      0,
+      "e044a4136acb758f2cd7a1b2f2574806"
+    ],
+    [
+      "Overload.va_eval_reg",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Overload.reg__uu___haseq" ],
+      0,
+      "7601d69c4a6b81bdc352da75f84b4e46"
+    ],
+    [
+      "Overload.va_state_eq",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "87d93f3dc98c7c7bd2c82522f32cc624"
+    ],
+    [
+      "Overload.va_state_eq",
+      2,
+      1,
+      0,
+      [ "@query", "assumption_Overload.reg__uu___haseq" ],
+      0,
+      "84a1c31509079ee0d8d443697262d2fb"
+    ],
+    [
+      "Overload.va_state_eq",
+      3,
+      1,
+      0,
+      [ "@query", "assumption_Overload.reg__uu___haseq" ],
+      0,
+      "42431669dac5e6a4d43e35fb8c227cdf"
+    ],
+    [
+      "Overload.va_state_eq",
+      4,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "3b652b0e0d9d9be7ad755c156c946e73"
+    ],
+    [
+      "Overload.va_state_eq",
+      5,
+      1,
+      0,
+      [ "@query", "assumption_Overload.reg__uu___haseq" ],
+      0,
+      "41f3c5ce0836cd173970eb793e3977ef"
+    ],
+    [
+      "Overload.va_state_eq",
+      6,
+      1,
+      0,
+      [ "@query", "assumption_Overload.reg__uu___haseq" ],
+      0,
+      "4e91e31f685e4e99a8f64c905572e71c"
+    ],
+    [
+      "Overload.va_require_total",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Overload.va_code__uu___haseq" ],
+      0,
+      "d7e55e122ba68730c5fd919a6764d5e6"
+    ],
+    [
+      "Overload.eval_ocmp",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Overload.reg__uu___haseq" ],
+      0,
+      "c2eac2f21565053c0d56deb4715679a3"
+    ],
+    [
+      "Overload.eval_ocmp",
+      2,
+      1,
+      0,
+      [ "@query", "assumption_Overload.reg__uu___haseq" ],
+      0,
+      "348e3b2b97bc8fe3c2ba4dc12a0e926b"
+    ],
+    [
+      "Overload.va_lemma_Calls",
+      1,
+      1,
+      0,
+      [
+        "@query", "b2t_def", "constructor_distinct_Overload.Block",
+        "disc_equation_Overload.Block", "equation_Overload.va_Block",
+        "equation_Overload.va_CNil", "equation_Overload.va_code_Calls",
+        "equation_Overload.va_ensure_total", "equation_Overload.va_fuel",
+        "equation_Overload.va_get_ok", "equation_Overload.va_require_total",
+        "equation_Overload.va_state", "equation_Overload.va_state_eq",
+        "equation_Overload.va_transparent_code_Calls",
+        "equation_Overload.va_update_ok", "primitive_Prims.op_Equality",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple2__1",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple2__2",
+        "projection_inverse_Overload.Block_block", "true_interp"
+      ],
+      0,
+      "b08df95e805ead742a6a58447f1d56bd"
+    ],
+    [
+      "Overload.va_lemma_Calls",
+      2,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "2309fe7ad80e03e17cb99b157f33a8b8"
+    ]
+  ]
+]

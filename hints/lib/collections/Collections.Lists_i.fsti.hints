@@ -1,0 +1,61 @@
+[
+  "\u001d:Õó×š¦Ï§\tb{\t­Öl",
+  [
+    [
+      "Collections.Lists_i.list_append_index",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "b2t_def", "bool_inversion",
+        "bool_typing", "equation_Prims.nat", "equation_Prims.squash",
+        "int_inversion", "primitive_Prims.op_LessThan",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5",
+        "refinement_interpretation_Prims_Tm_refine_a4038d5aed1633b5ecbb4e499b1c66ad"
+      ],
+      0,
+      "c6c98b0a64b87e7acf5d2f1d1f254b23"
+    ],
+    [
+      "Collections.Lists_i.from_list_le",
+      1,
+      1,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_f537159ed795b314b4e58c260361ae86",
+        "binder_x_47e04024252030d43f7aef842c456923_0", "bool_typing",
+        "disc_equation_Prims.Cons", "disc_equation_Prims.Nil",
+        "fuel_guarded_inversion_Prims.list",
+        "projection_inverse_Prims.Cons_tl", "subterm_ordering_Prims.Cons"
+      ],
+      0,
+      "1a23e30c5e11b5dbb96a7257feb415ed"
+    ],
+    [
+      "Collections.Lists_i.lemma_from_list_le",
+      1,
+      1,
+      0,
+      [
+        "@query", "assumption_Prims.HasEq_int", "equation_Prims.nat",
+        "haseqPrims_Tm_refine_a4038d5aed1633b5ecbb4e499b1c66ad"
+      ],
+      0,
+      "d33b7983b5cc841bd5c14fed44722432"
+    ],
+    [
+      "Collections.Lists_i.lemma_from_list_be",
+      1,
+      1,
+      0,
+      [
+        "@query", "assumption_Prims.HasEq_int", "equation_Prims.nat",
+        "haseqPrims_Tm_refine_a4038d5aed1633b5ecbb4e499b1c66ad"
+      ],
+      0,
+      "9703025d304a58a47f8967df73f891bb"
+    ]
+  ]
+]

@@ -1,0 +1,119 @@
+[
+  "\u0010l\u0004\u001b\u001e/\u0014к\u0005\u0001изѕ¦\r!",
+  [
+    [
+      "X64.Vale.InsAes.va_wpProof_Pclmulqdq",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "eb983c7ae4c9b6314cb34bf7f6802442"
+    ],
+    [
+      "X64.Vale.InsAes.va_wpProof_AESNI_enc",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "25a03756192426c9a1c10816b22f6d37"
+    ],
+    [
+      "X64.Vale.InsAes.va_wpProof_AESNI_enc_last",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "519604493de3ed49069f65435d7aa25e"
+    ],
+    [
+      "X64.Vale.InsAes.va_wpProof_AESNI_dec",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "76c3a06b319429ab7350dffe1333daee"
+    ],
+    [
+      "X64.Vale.InsAes.va_wpProof_AESNI_dec_last",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "99d30cdfa4171f27ede79f8c8f16b07b"
+    ],
+    [
+      "X64.Vale.InsAes.va_wpProof_AESNI_imc",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "fb62dd9a5d6d59ca1138527fd692066a"
+    ],
+    [
+      "X64.Vale.InsAes.va_lemma_AESNI_keygen_assist",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_X64.Machine_s.imm8",
+        "primitive_Prims.op_LessThan", "primitive_Prims.op_LessThanOrEqual",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_BoxInt_proj_0",
+        "refinement_interpretation_X64.Machine_s_Tm_refine_ed0c82b529ba35f1d88d0cb19afaf666"
+      ],
+      0,
+      "cced1ac652158c7e861f4e5c5225157e"
+    ],
+    [
+      "X64.Vale.InsAes.va_wp_AESNI_keygen_assist",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_X64.Machine_s.imm8",
+        "primitive_Prims.op_LessThan", "primitive_Prims.op_LessThanOrEqual",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_BoxInt_proj_0",
+        "refinement_interpretation_X64.Machine_s_Tm_refine_ed0c82b529ba35f1d88d0cb19afaf666"
+      ],
+      0,
+      "ff24326449a7c3e5b794c668db6d0f2f"
+    ],
+    [
+      "X64.Vale.InsAes.va_wpProof_AESNI_keygen_assist",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "7c8a1e2cd43411100cbf3d0665b7a13c"
+    ]
+  ]
+]

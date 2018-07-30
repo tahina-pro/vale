@@ -1,24 +1,6 @@
 [
-  "\u000bÈçuÅösmgÄY\\ç\u001aƒ„",
+  "+Í;¶S\u000fsπ”¨^àÂ\u007f\u0011;",
   [
-    [
-      "Fstar1ifc.uu___is_EAX",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "3ad06821c4fce86f7c2cadc917c3a9f5"
-    ],
-    [
-      "Fstar1ifc.uu___is_EBX",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "b28294353d9d3e14b0c7af7e63111240"
-    ],
     [
       "Fstar1ifc.ins",
       1,
@@ -26,43 +8,16 @@
       0,
       [ "@query", "assumption_Prims.HasEq_int" ],
       0,
-      "87ec31163500d607c126e7cf359373a8"
-    ],
-    [
-      "Fstar1ifc.__proj__IPlaceholder__item___0",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "f3417cb7766a2ff116296b07ecb8bef8"
+      "902f36956b8e9a5a04a0ba795fcdb4f1"
     ],
     [
       "Fstar1ifc.ocmp",
       1,
       1,
       0,
-      [ "@query", "assumption_Fstar1ifc.reg_haseq" ],
+      [ "@query", "assumption_Fstar1ifc.reg__uu___haseq" ],
       0,
-      "00a53080e80b0c8d092c6b71ebea8526"
-    ],
-    [
-      "Fstar1ifc.__proj__OLe__item__o1",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "b8bba1f75a3a962f8c8e5ed512c1fd2f"
-    ],
-    [
-      "Fstar1ifc.__proj__OLe__item__o2",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "21201113cbb7f701f6efb14531a72b6a"
+      "712304d0476fceb1bf987920b93a6b20"
     ],
     [
       "Fstar1ifc.va_code",
@@ -70,21 +25,12 @@
       1,
       0,
       [
-        "@query", "assumption_Fstar1ifc.ins_haseq",
-        "assumption_Fstar1ifc.ocmp_haseq", "assumption_Prims.list_haseq",
-        "kinding_Fstar1ifc.va_code@tok"
+        "@query", "assumption_Fstar1ifc.ins__uu___haseq",
+        "assumption_Fstar1ifc.ocmp__uu___haseq",
+        "assumption_Prims.list__uu___haseq", "kinding_Fstar1ifc.va_code@tok"
       ],
       0,
-      "2b3ac6443d2c0c603be37768f17176be"
-    ],
-    [
-      "Fstar1ifc.uu___is_Ins",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "cd6d7972716b63853829c3817c1baf06"
+      "411e54234099ca843a418797780e7e71"
     ],
     [
       "Fstar1ifc.__proj__Ins__item__ins",
@@ -97,16 +43,7 @@
         "refinement_interpretation_Fstar1ifc_Tm_refine_148cfcdaee2ff94a020d91ad59919338"
       ],
       0,
-      "864d977e84816f911a69d6b77365d7e5"
-    ],
-    [
-      "Fstar1ifc.uu___is_Block",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "3ff250ca6f4db2fa38a5e4a692e21ff1"
+      "9e3d90206824e326b562d481c64659a5"
     ],
     [
       "Fstar1ifc.__proj__Block__item__block",
@@ -119,16 +56,7 @@
         "refinement_interpretation_Fstar1ifc_Tm_refine_7b99d22def9ff1bbcc77c358ff6f7086"
       ],
       0,
-      "bbdb5a51d7d8c7787ce64f75c07f9214"
-    ],
-    [
-      "Fstar1ifc.uu___is_IfElse",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "c5c60941abc173a0a59633db0cacaa5b"
+      "6e44487eccf413f8af3f3f2c6032622a"
     ],
     [
       "Fstar1ifc.__proj__IfElse__item__ifCond",
@@ -141,7 +69,7 @@
         "refinement_interpretation_Fstar1ifc_Tm_refine_97beaafa7d0b72f973f771357e2899b3"
       ],
       0,
-      "26504b648a53cb6f8b0f97a99d1ae382"
+      "80eed189dbb71bff7dbef4dceeae5637"
     ],
     [
       "Fstar1ifc.__proj__IfElse__item__ifTrue",
@@ -154,7 +82,7 @@
         "refinement_interpretation_Fstar1ifc_Tm_refine_97beaafa7d0b72f973f771357e2899b3"
       ],
       0,
-      "4d8273806e61bdc082ed1f3f4fc8b073"
+      "fd4ad7dc9398892040c582962bf62d30"
     ],
     [
       "Fstar1ifc.__proj__IfElse__item__ifFalse",
@@ -167,16 +95,7 @@
         "refinement_interpretation_Fstar1ifc_Tm_refine_97beaafa7d0b72f973f771357e2899b3"
       ],
       0,
-      "5eab21f0f376e0dcd83a1775c0fbe19e"
-    ],
-    [
-      "Fstar1ifc.uu___is_While",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "4e211697be375beeb15a3a3efa98ed53"
+      "637dc4f0996f9b93b2fd35f4f1ba4b2b"
     ],
     [
       "Fstar1ifc.__proj__While__item__whileCond",
@@ -189,7 +108,7 @@
         "refinement_interpretation_Fstar1ifc_Tm_refine_c6ea869602ca3dfe5cff3c9d1e421e3b"
       ],
       0,
-      "c4bb46b8ee8abb06a1491cccbd533d7d"
+      "3ff8d5e7b19b7b23dacbd45283e13121"
     ],
     [
       "Fstar1ifc.__proj__While__item__whileBody",
@@ -202,52 +121,52 @@
         "refinement_interpretation_Fstar1ifc_Tm_refine_c6ea869602ca3dfe5cff3c9d1e421e3b"
       ],
       0,
-      "55003efc4c7f68ed60b1b180540738ff"
+      "bb94fd866745d2b5cd6d9e04bebfc4cb"
     ],
     [
       "Fstar1ifc.va_state",
       1,
       1,
       0,
-      [ "@query", "assumption_Fstar1ifc.reg_haseq" ],
+      [ "@query", "assumption_Fstar1ifc.reg__uu___haseq" ],
       0,
-      "ad9a1edbdea74333174e24f81c344f8c"
+      "25481634523d249d0e84e1ca70dd2197"
     ],
     [
       "Fstar1ifc.va_get_reg",
       1,
       1,
       0,
-      [ "@query", "assumption_Fstar1ifc.reg_haseq" ],
+      [ "@query", "assumption_Fstar1ifc.reg__uu___haseq" ],
       0,
-      "4a94d8112d16f0a11627e6d57668bf32"
+      "99b65ede98871b2bbf9e66ed63aa3032"
     ],
     [
       "Fstar1ifc.va_update_reg",
       1,
       1,
       0,
-      [ "@query", "assumption_Fstar1ifc.reg_haseq" ],
+      [ "@query", "assumption_Fstar1ifc.reg__uu___haseq" ],
       0,
-      "07ab1262993cf94cd408d2e3843deb08"
+      "a57ebd674abee01b658eb73c0be9de6b"
     ],
     [
       "Fstar1ifc.va_update_reg",
       2,
       1,
       0,
-      [ "@query", "assumption_Fstar1ifc.reg_haseq" ],
+      [ "@query", "assumption_Fstar1ifc.reg__uu___haseq" ],
       0,
-      "bd8f3c059bbd9992936321ba5fdc380f"
+      "04cbb3d506f6f2455b63b5b8e387a49f"
     ],
     [
-      "Fstar1ifc.va_eval_register_int",
+      "Fstar1ifc.va_eval_reg",
       1,
       1,
       0,
-      [ "@query", "assumption_Fstar1ifc.reg_haseq" ],
+      [ "@query", "assumption_Fstar1ifc.reg__uu___haseq" ],
       0,
-      "9c86ce3947efccdb26f802315e4c8cb4"
+      "7aceb9bc32fa6dabecb72c09cdc11c71"
     ],
     [
       "Fstar1ifc.va_state_eq",
@@ -256,25 +175,25 @@
       0,
       [ "@query", "assumption_Prims.HasEq_int" ],
       0,
-      "358f825ddae878c7a713bf9a3601fe92"
+      "3ce3d71a8029d5f04262d10c3212708f"
     ],
     [
       "Fstar1ifc.va_state_eq",
       2,
       1,
       0,
-      [ "@query", "assumption_Fstar1ifc.reg_haseq" ],
+      [ "@query", "assumption_Fstar1ifc.reg__uu___haseq" ],
       0,
-      "d719bf8a4273e661a194b39f730a33cf"
+      "3cf3919d96b4d41626f42a593e6dd6f7"
     ],
     [
       "Fstar1ifc.va_state_eq",
       3,
       1,
       0,
-      [ "@query", "assumption_Fstar1ifc.reg_haseq" ],
+      [ "@query", "assumption_Fstar1ifc.reg__uu___haseq" ],
       0,
-      "4ae19794523a35999b9e203c5e53436a"
+      "9fca68ff537b807c605d5e695ed7c6fc"
     ],
     [
       "Fstar1ifc.va_state_eq",
@@ -283,79 +202,52 @@
       0,
       [ "@query", "assumption_Prims.HasEq_int" ],
       0,
-      "51077f4bd617f35a45c327657f799fb2"
+      "7e97a23cca0d02b145100c2f7a079670"
     ],
     [
       "Fstar1ifc.va_state_eq",
       5,
       1,
       0,
-      [ "@query", "assumption_Fstar1ifc.reg_haseq" ],
+      [ "@query", "assumption_Fstar1ifc.reg__uu___haseq" ],
       0,
-      "4860330e3e5e7bf4471675b49ba90804"
+      "04547348ef8fac8913d771139accadad"
     ],
     [
       "Fstar1ifc.va_state_eq",
       6,
       1,
       0,
-      [ "@query", "assumption_Fstar1ifc.reg_haseq" ],
+      [ "@query", "assumption_Fstar1ifc.reg__uu___haseq" ],
       0,
-      "36dfdebe788a685e311dcd1fbf6b57b0"
+      "870c952c66110db3c1d1f605628323ea"
     ],
     [
       "Fstar1ifc.va_require_total",
       1,
       1,
       0,
-      [ "@query" ],
+      [ "@query", "assumption_Fstar1ifc.va_code__uu___haseq" ],
       0,
-      "5a3a32e3449ea950bf9ed9f13cd3fa63"
-    ],
-    [
-      "Fstar1ifc.va_require_total",
-      2,
-      1,
-      0,
-      [ "@query", "assumption_Fstar1ifc.va_code_haseq" ],
-      0,
-      "b95ae4cbbb7f1019196bb03a2ff9a904"
+      "22c13a69c612a0cf69490aa53dcdb8b3"
     ],
     [
       "Fstar1ifc.eval_ocmp",
       1,
       1,
       0,
-      [ "@query" ],
+      [ "@query", "assumption_Fstar1ifc.reg__uu___haseq" ],
       0,
-      "08a7a2f8fb64181a3cf745256a838bb5"
+      "45cb9235db356716958c7c2c618c45eb"
     ],
     [
       "Fstar1ifc.eval_ocmp",
       2,
       1,
       0,
-      [ "@query", "assumption_Fstar1ifc.reg_haseq" ],
+      [ "@query", "assumption_Fstar1ifc.reg__uu___haseq" ],
       0,
-      "853afd972d8d06e4adb4d8399fbb3429"
-    ],
-    [
-      "Fstar1ifc.eval_ocmp",
-      3,
-      1,
-      0,
-      [ "@query", "assumption_Fstar1ifc.reg_haseq" ],
-      0,
-      "3669d230e066cd82baf699d0b6b07edb"
-    ],
-    [
-      "Fstar1ifc.va_lemma_empty_total",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "528403b796aeb4c6219a4c474e0db71c"
+      "8bd700e6f03ed83ce02e229a24a3fba1"
     ],
     [
       "Fstar1ifc.va_lemma_merge_total",
@@ -364,43 +256,7 @@
       0,
       [ "@query" ],
       0,
-      "467483b8fcdce1a3be34540d45129c30"
-    ],
-    [
-      "Fstar1ifc.va_lemma_ifElse_total",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "e6e2aca0e24f5bda9b1b79bc0eb780d8"
-    ],
-    [
-      "Fstar1ifc.va_lemma_while_total",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "c0d8fcde1593d4a8f0c17ca47eafeb5c"
-    ],
-    [
-      "Fstar1ifc.va_lemma_whileTrue_total",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "a5bcebd3b8c28b73547fa3ca3aa36f00"
-    ],
-    [
-      "Fstar1ifc.va_lemma_whileFalse_total",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "d8982a4bb2f4606529f9dc6fbdaa7a32"
+      "07b63d1b3f775b601fa79a0c80489083"
     ],
     [
       "Fstar1ifc.va_lemma_whileMerge_total",
@@ -409,20 +265,11 @@
       0,
       [ "@query" ],
       0,
-      "23779c29332511367be4a161ce4c4a4f"
+      "c5116eed035ef8d7a99fc51c002b4694"
     ],
     [
-      "Fstar1ifc.va_irreducible_lemma_Imm",
+      "Fstar1ifc.va_lemma_Imm",
       1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "ee7ccbb460ab475c03698324cefdc6b2"
-    ],
-    [
-      "Fstar1ifc.va_irreducible_lemma_Imm",
-      2,
       1,
       0,
       [
@@ -435,38 +282,11 @@
         "projection_inverse_Fstar1ifc.Block_block"
       ],
       0,
-      "b39c84319de1452f4c29e6d89b44e18f"
+      "49ad413418d658263125d74962d9ed06"
     ],
     [
-      "Fstar1ifc.va_lemma_Imm",
+      "Fstar1ifc.va_lemma_Increment",
       1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "6d1a3572907be46d981340444a48c760"
-    ],
-    [
-      "Fstar1ifc.va_lemma_Imm",
-      2,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "30de860bbe4aa88d8974cc3d3f25e18e"
-    ],
-    [
-      "Fstar1ifc.va_irreducible_lemma_Increment",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "c6e30401e85a00287bebb388dd715dff"
-    ],
-    [
-      "Fstar1ifc.va_irreducible_lemma_Increment",
-      2,
       1,
       0,
       [
@@ -479,38 +299,11 @@
         "projection_inverse_Fstar1ifc.Block_block"
       ],
       0,
-      "37165b1869f3224862c0ddea9d51283f"
+      "cf4cf94dcb33b0f9a759315150daeac2"
     ],
     [
-      "Fstar1ifc.va_lemma_Increment",
+      "Fstar1ifc.va_lemma_Add",
       1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "79fde10c49473322f2b36d875b9597f4"
-    ],
-    [
-      "Fstar1ifc.va_lemma_Increment",
-      2,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "d5d15284227a6bcfc905bd5c225745ac"
-    ],
-    [
-      "Fstar1ifc.va_irreducible_lemma_Add",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "6bb768561abbd6a79bb104cea9803c8b"
-    ],
-    [
-      "Fstar1ifc.va_irreducible_lemma_Add",
-      2,
       1,
       0,
       [
@@ -523,38 +316,11 @@
         "projection_inverse_Fstar1ifc.Block_block"
       ],
       0,
-      "82830df0ad0093ca5ca0dd76471537d8"
+      "eaf585bebe22dd31c76576d5c3441286"
     ],
     [
-      "Fstar1ifc.va_lemma_Add",
+      "Fstar1ifc.va_lemma_AddReg",
       1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "66b58e5fae8ab39e93c13cf592b26c7f"
-    ],
-    [
-      "Fstar1ifc.va_lemma_Add",
-      2,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "050af48bb295676d48fc380cc31ef9ca"
-    ],
-    [
-      "Fstar1ifc.va_irreducible_lemma_AddReg",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "78a55e367d72120592dbf98a3de9cead"
-    ],
-    [
-      "Fstar1ifc.va_irreducible_lemma_AddReg",
-      2,
       1,
       0,
       [
@@ -581,44 +347,17 @@
         "projection_inverse_Prims.Cons_tl", "true_interp"
       ],
       0,
-      "e5baccec177ce9836aad7131144b0e34"
+      "c153a14a2094152fa24acf6722f307dc"
     ],
     [
-      "Fstar1ifc.va_lemma_AddReg",
+      "Fstar1ifc.va_lemma_p",
       1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "7f16d5502de3ebccf3dede80100862a4"
-    ],
-    [
-      "Fstar1ifc.va_lemma_AddReg",
-      2,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "7be32619dec3354e228a4a53eebfb01e"
-    ],
-    [
-      "Fstar1ifc.va_irreducible_lemma_p",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "4c60dd250208aad7af1bffc71838d929"
-    ],
-    [
-      "Fstar1ifc.va_irreducible_lemma_p",
-      2,
       1,
       0,
       [
         "@MaxIFuel_assumption", "@query",
         "Fstar1ifc_pretyping_0e41ca263324721ebfc4d3fb3aa08358",
-        "assumption_Fstar1ifc.reg_haseq", "b2t_def",
+        "assumption_Fstar1ifc.reg__uu___haseq", "b2t_def",
         "constructor_distinct_Fstar1ifc.Block",
         "constructor_distinct_Fstar1ifc.EAX",
         "constructor_distinct_Fstar1ifc.EBX",
@@ -630,17 +369,16 @@
         "equation_Fstar1ifc.va_Block", "equation_Fstar1ifc.va_CCons",
         "equation_Fstar1ifc.va_CNil", "equation_Fstar1ifc.va_code_Increment",
         "equation_Fstar1ifc.va_code_p", "equation_Fstar1ifc.va_ensure_total",
-        "equation_Fstar1ifc.va_eval_register_int",
-        "equation_Fstar1ifc.va_fuel", "equation_Fstar1ifc.va_get_block",
-        "equation_Fstar1ifc.va_get_ok", "equation_Fstar1ifc.va_get_reg",
-        "equation_Fstar1ifc.va_is_dst_register_int",
-        "equation_Fstar1ifc.va_op_register_reg",
+        "equation_Fstar1ifc.va_eval_reg", "equation_Fstar1ifc.va_fuel",
+        "equation_Fstar1ifc.va_get_block", "equation_Fstar1ifc.va_get_ok",
+        "equation_Fstar1ifc.va_get_reg", "equation_Fstar1ifc.va_is_dst_reg",
+        "equation_Fstar1ifc.va_op_reg_reg",
         "equation_Fstar1ifc.va_require_total", "equation_Fstar1ifc.va_state",
         "equation_Fstar1ifc.va_state_eq",
         "equation_Fstar1ifc.va_transparent_code_p",
         "equation_Fstar1ifc.va_update_ok",
+        "equation_Fstar1ifc.va_update_operand_reg",
         "equation_Fstar1ifc.va_update_reg",
-        "equation_Fstar1ifc.va_update_register",
         "function_token_typing_Prims.int", "int_typing",
         "kinding_Fstar1ifc.reg@tok", "lemma_FStar.Map.lemma_SelUpd1",
         "lemma_FStar.Map.lemma_SelUpd2", "primitive_Prims.op_Equality",
@@ -658,44 +396,17 @@
         "typing_tok_Fstar1ifc.EBX@tok"
       ],
       0,
-      "c518953c0a79d9d5ceccc7734734e7d6"
+      "ed00e6e3bca9c02cc93f135e287cd67e"
     ],
     [
-      "Fstar1ifc.va_lemma_p",
+      "Fstar1ifc.va_lemma_Calls",
       1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "0f202726b12b95d72e01ca6616f3c9b7"
-    ],
-    [
-      "Fstar1ifc.va_lemma_p",
-      2,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "3d44f8c19a1a82bfd631d9f0dddabdd1"
-    ],
-    [
-      "Fstar1ifc.va_irreducible_lemma_Calls",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "cda46eb325eafbc1196e1b33daf24b46"
-    ],
-    [
-      "Fstar1ifc.va_irreducible_lemma_Calls",
-      2,
       1,
       0,
       [
         "@MaxIFuel_assumption", "@query",
         "Fstar1ifc_pretyping_0e41ca263324721ebfc4d3fb3aa08358",
-        "assumption_Fstar1ifc.reg_haseq", "b2t_def",
+        "assumption_Fstar1ifc.reg__uu___haseq", "b2t_def",
         "constructor_distinct_Fstar1ifc.Block",
         "constructor_distinct_Fstar1ifc.EAX",
         "constructor_distinct_Fstar1ifc.EBX",
@@ -713,16 +424,15 @@
         "equation_Fstar1ifc.va_code_Calls", "equation_Fstar1ifc.va_code_Imm",
         "equation_Fstar1ifc.va_code_Increment",
         "equation_Fstar1ifc.va_ensure_total",
-        "equation_Fstar1ifc.va_eval_register_int",
-        "equation_Fstar1ifc.va_fuel", "equation_Fstar1ifc.va_get_block",
+        "equation_Fstar1ifc.va_eval_reg", "equation_Fstar1ifc.va_fuel",
+        "equation_Fstar1ifc.va_get_block",
         "equation_Fstar1ifc.va_get_ifCond",
         "equation_Fstar1ifc.va_get_ifFalse",
         "equation_Fstar1ifc.va_get_ifTrue", "equation_Fstar1ifc.va_get_ok",
-        "equation_Fstar1ifc.va_get_reg",
-        "equation_Fstar1ifc.va_is_dst_register_int",
-        "equation_Fstar1ifc.va_is_src_register_int",
+        "equation_Fstar1ifc.va_get_reg", "equation_Fstar1ifc.va_is_dst_reg",
+        "equation_Fstar1ifc.va_is_src_reg",
         "equation_Fstar1ifc.va_op_cmp_reg",
-        "equation_Fstar1ifc.va_op_register_reg",
+        "equation_Fstar1ifc.va_op_reg_reg",
         "equation_Fstar1ifc.va_require_total", "equation_Fstar1ifc.va_state",
         "equation_Fstar1ifc.va_state_eq",
         "equation_Fstar1ifc.va_transparent_code_Add",
@@ -730,8 +440,8 @@
         "equation_Fstar1ifc.va_transparent_code_Imm",
         "equation_Fstar1ifc.va_transparent_code_Increment",
         "equation_Fstar1ifc.va_update_ok",
+        "equation_Fstar1ifc.va_update_operand_reg",
         "equation_Fstar1ifc.va_update_reg",
-        "equation_Fstar1ifc.va_update_register",
         "function_token_typing_Prims.int", "int_typing",
         "kinding_Fstar1ifc.reg@tok", "lemma_FStar.Map.lemma_SelUpd1",
         "lemma_FStar.Map.lemma_SelUpd2", "primitive_Prims.op_Equality",
@@ -762,53 +472,17 @@
         "typing_tok_Fstar1ifc.EBX@tok"
       ],
       0,
-      "fa052f68ff5c08a7bf56a16cc6af953b"
+      "1730c7438d691bbe980321841c12bf60"
     ],
     [
-      "Fstar1ifc.va_lemma_Calls",
+      "Fstar1ifc.va_lemma_WhileTest",
       1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "5f146aea818cccfb58717408b4366399"
-    ],
-    [
-      "Fstar1ifc.va_lemma_Calls",
-      2,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "d2bc420e9ecbde973241242c9f2831fc"
-    ],
-    [
-      "Fstar1ifc.va_irreducible_lemma_WhileTest",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "7e06ef5a03bd55592646bd269183c725"
-    ],
-    [
-      "Fstar1ifc.va_irreducible_lemma_WhileTest",
-      2,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "6a1a7fc42cc6bc1e7545bfa9e9d25533"
-    ],
-    [
-      "Fstar1ifc.va_irreducible_lemma_WhileTest",
-      3,
       1,
       0,
       [
         "@MaxIFuel_assumption", "@query",
         "Fstar1ifc_pretyping_0e41ca263324721ebfc4d3fb3aa08358",
-        "assumption_Fstar1ifc.reg_haseq", "b2t_def", "bool_inversion",
+        "assumption_Fstar1ifc.reg__uu___haseq", "b2t_def", "bool_inversion",
         "constructor_distinct_Fstar1ifc.Block",
         "constructor_distinct_Fstar1ifc.EAX",
         "constructor_distinct_Fstar1ifc.EBX",
@@ -826,21 +500,21 @@
         "equation_Fstar1ifc.va_code_Increment",
         "equation_Fstar1ifc.va_code_WhileTest",
         "equation_Fstar1ifc.va_ensure_total",
-        "equation_Fstar1ifc.va_eval_register_int",
-        "equation_Fstar1ifc.va_fuel", "equation_Fstar1ifc.va_get_block",
-        "equation_Fstar1ifc.va_get_ok", "equation_Fstar1ifc.va_get_reg",
+        "equation_Fstar1ifc.va_eval_reg", "equation_Fstar1ifc.va_fuel",
+        "equation_Fstar1ifc.va_get_block", "equation_Fstar1ifc.va_get_ok",
+        "equation_Fstar1ifc.va_get_reg",
         "equation_Fstar1ifc.va_get_whileBody",
         "equation_Fstar1ifc.va_get_whileCond",
-        "equation_Fstar1ifc.va_is_dst_register_int",
+        "equation_Fstar1ifc.va_is_dst_reg",
         "equation_Fstar1ifc.va_op_cmp_reg",
-        "equation_Fstar1ifc.va_op_register_reg",
+        "equation_Fstar1ifc.va_op_reg_reg",
         "equation_Fstar1ifc.va_require_total", "equation_Fstar1ifc.va_state",
         "equation_Fstar1ifc.va_state_eq",
         "equation_Fstar1ifc.va_transparent_code_Increment",
         "equation_Fstar1ifc.va_transparent_code_WhileTest",
         "equation_Fstar1ifc.va_update_ok",
+        "equation_Fstar1ifc.va_update_operand_reg",
         "equation_Fstar1ifc.va_update_reg",
-        "equation_Fstar1ifc.va_update_register",
         "equation_Fstar1ifc.va_whileInv_total",
         "function_token_typing_Prims.int", "int_inversion", "int_typing",
         "kinding_Fstar1ifc.reg@tok", "lemma_FStar.Map.lemma_SelUpd1",
@@ -868,38 +542,11 @@
         "typing_tok_Fstar1ifc.EBX@tok", "well-founded-ordering-on-nat"
       ],
       0,
-      "b034737ae98ea64870217897c41f11c3"
+      "13f4f36f943e688c16398d76c13cd7ef"
     ],
     [
-      "Fstar1ifc.va_lemma_WhileTest",
+      "Fstar1ifc.va_lemma_Ghosts",
       1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "34997f4866aec4d9537008f4a18b3df3"
-    ],
-    [
-      "Fstar1ifc.va_lemma_WhileTest",
-      2,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "aced464ee3214836d553320840539bd1"
-    ],
-    [
-      "Fstar1ifc.va_irreducible_lemma_Ghosts",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "84d396587c90eed0a23e3d454e193a85"
-    ],
-    [
-      "Fstar1ifc.va_irreducible_lemma_Ghosts",
-      2,
       1,
       0,
       [
@@ -913,39 +560,20 @@
         "equation_Fstar1ifc.va_require_total", "equation_Fstar1ifc.va_state",
         "equation_Fstar1ifc.va_state_eq",
         "equation_Fstar1ifc.va_transparent_code_Ghosts",
-        "equation_Fstar1ifc.va_update_ok", "int_inversion", "int_typing",
-        "primitive_Prims.op_Equality", "projection_inverse_BoxBool_proj_0",
+        "equation_Fstar1ifc.va_update_ok",
+        "function_token_typing_Fstar1ifc.make_opaque", "int_inversion",
+        "int_typing", "primitive_Prims.op_Equality",
+        "projection_inverse_BoxBool_proj_0",
         "projection_inverse_BoxInt_proj_0",
-        "projection_inverse_FStar.Pervasives.Native.Mktuple2__1",
-        "projection_inverse_FStar.Pervasives.Native.Mktuple2__2",
         "projection_inverse_FStar.Pervasives.Native.Mktuple3__1",
         "projection_inverse_FStar.Pervasives.Native.Mktuple3__2",
         "projection_inverse_FStar.Pervasives.Native.Mktuple3__3",
         "projection_inverse_Fstar1ifc.Block_block",
-        "token_correspondence_Fstar1ifc.double",
-        "token_correspondence_Fstar1ifc.make_opaque", "true_interp",
+        "token_correspondence_Fstar1ifc.double", "true_interp",
         "typing_Fstar1ifc.opaque_double"
       ],
       0,
-      "bd5c097a5f6b88c146b060be25f1c0cb"
-    ],
-    [
-      "Fstar1ifc.va_lemma_Ghosts",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "49e4a4c402c4c0d94c7b9112d1b7c349"
-    ],
-    [
-      "Fstar1ifc.va_lemma_Ghosts",
-      2,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "279b6d1475ef925802e5aef4feae098a"
+      "d990f86696604202df1a5b5732d708c8"
     ]
   ]
 ]

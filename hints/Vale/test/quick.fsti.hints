@@ -1,0 +1,115 @@
+[
+  "\u000böKû\u0016ÑSáÁ≥ç»Øb*X",
+  [
+    [
+      "Quick.self_int",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "binder_x_6d0180d4fcd10237cf0d87dd345d77cc_0", "int_typing",
+        "primitive_Prims.op_LessThanOrEqual",
+        "projection_inverse_BoxInt_proj_0", "well-founded-ordering-on-nat"
+      ],
+      0,
+      "fbc29b4953edbfa1216534942fd16b9d"
+    ],
+    [
+      "Quick.va_wpProof_Add64Ghosts",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "5b5a9835a2cc2cb7a402257ddb15f2d0"
+    ],
+    [
+      "Quick.va_wpProof_Bump3",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "b84353b64a8cb37da83394feea20c0e4"
+    ],
+    [
+      "Quick.va_wpProof_CallBump3",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "1ec1344a79061aa1fbd6d34ae260cb2f"
+    ],
+    [
+      "Quick.va_wpProof_AddRaxG",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "1a75088bf84a806434bdebc7de28bf84"
+    ],
+    [
+      "Quick.va_wpProof_While_body",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "d13afc96e7a947a0d5c88f90fd8cea36"
+    ],
+    [
+      "Quick.va_wpProof_While_while",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "fabb0cb896358045427f47d1240253e8"
+    ],
+    [
+      "Quick.va_wpProof_While",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "c2f088c6a3d2cc70786f23ff88cd1812"
+    ],
+    [
+      "Quick.va_wpProof_TestAssertTyping",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "be39b5cf801e9292c70567c6e50dad0e"
+    ]
+  ]
+]

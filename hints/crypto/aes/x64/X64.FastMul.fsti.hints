@@ -1,0 +1,119 @@
+[
+  "òÉ®nŒÔüi…¦\u001b!¶ òñ",
+  [
+    [
+      "X64.FastMul.uu___218",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "e2b8ac82d963cf3f9d4b0853ee027b7f"
+    ],
+    [
+      "X64.FastMul.uu___218",
+      2,
+      1,
+      0,
+      [ "@query" ],
+      0,
+      "a2449e26d256317e2c016977f4ddce45"
+    ],
+    [
+      "X64.FastMul.uu___219",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "41c10d7a84617d78a8b28a6c19055183"
+    ],
+    [
+      "X64.FastMul.uu___219",
+      2,
+      1,
+      0,
+      [ "@query" ],
+      0,
+      "7626d0a76702b4efbcfaf68d47c26558"
+    ],
+    [
+      "X64.FastMul.uu___220",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "4ba648c911bc68b2de92fb72de0af004"
+    ],
+    [
+      "X64.FastMul.uu___220",
+      2,
+      1,
+      0,
+      [ "@query" ],
+      0,
+      "1a178182e5dd7cde05abd3b418236864"
+    ],
+    [
+      "X64.FastMul.uu___221",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "707913fad84b2a465f34e43696231d7b"
+    ],
+    [
+      "X64.FastMul.uu___221",
+      2,
+      1,
+      0,
+      [ "@query" ],
+      0,
+      "38fc2862c8595e1b7430d053d1edb382"
+    ],
+    [
+      "X64.FastMul.uu___222",
+      1,
+      1,
+      0,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "f8e086deb553207b6d48cb7c49e29c8d"
+    ],
+    [
+      "X64.FastMul.uu___222",
+      2,
+      1,
+      0,
+      [ "@query" ],
+      0,
+      "53ed351d3b7ccb4028a8c93b4f2f6310"
+    ],
+    [
+      "X64.FastMul.va_wpProof_fast_multiply",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "2a473908dd49ea5a6d939680194a81db"
+    ],
+    [
+      "X64.FastMul.va_wpProof_fast_mul_stdcall",
+      1,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.squash",
+        "refinement_interpretation_Prims_Tm_refine_8d65e998a07dd53ec478e27017d9dba5"
+      ],
+      0,
+      "dd33f1c13b2a40111831477361db2923"
+    ]
+  ]
+]
