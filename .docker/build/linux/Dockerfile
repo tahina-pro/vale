@@ -19,8 +19,8 @@ ARG COMMITID
 # Install Python 3.6
 # From: https://askubuntu.com/questions/865554/how-do-i-install-python-3-6-using-apt-get
 RUN sudo add-apt-repository ppa:deadsnakes/ppa
-RUN sudo apt-get update
-RUN sudo apt-get install python3.6
+RUN sudo apt-get -y update
+RUN sudo apt-get -y install python3.6
 
 RUN export FSTAR_HOME=${MYHOME}/FStar
 
