@@ -22,6 +22,13 @@ RUN sudo add-apt-repository ppa:deadsnakes/ppa
 RUN sudo apt-get -y update
 RUN sudo apt-get -y install python3.6
 
+# Install SCons
+WORKDIR ${MYHOME}
+ADD ["https://downloads.sourceforge.net/project/scons/scons/3.0.1/scons-3.0.1.tar.gz", "scons-3.0.1.tar.gz"]
+RUN tar xf scons-3.0.1.tar.gz
+WORKDIR ${MYHOME}/scons-3.0.1
+RUN sudo python3.6 setup.py install
+
 RUN export FSTAR_HOME=${MYHOME}/FStar
 
 WORKDIR ${MYHOME}/FStar
